@@ -1,0 +1,155 @@
+font-family: 'Cookie', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/*-----header-----*/
+header {
+  background-color: rgb(160, 160, 160);
+  width: 100%;
+}
+.headerbackground {
+  z-index: 0;
+  position: absolute;
+  opacity: 0.45;
+  background-image: url(shefuyutaphotos/PSX_20201005_234953.jpg);
+  background-position: 0% 40%;
+  background-size: cover;
+  width: 100%;
+  height: 147px;
+}
+.title {
+  position: relative;
+  z-index: 1;
+  padding: 20px 0 5px 10px;
+  font-family: "Cookie";
+}
+.title h1 {
+  display: inline;
+  font-weight: 300;
+  margin: 0;
+  color: white;
+  font-size: 3.5em;
+}
+/*背景を文字でくりぬく*/
+/*  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-size: 3em;
+  letter-spacing: -0.1em;
+  -webkit-background-clip: text;
+  width: 100%;
+  background-image: url(shefuyutaphotos/PSX_20200529_201911.jpg);
+  background-size: cover;*/
+
+.language {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  opacity: 0.8;
+  font-size: 90%;
+  font-style: italic;
+  float: right;
+  margin: 7px 10px 0 0;
+  font-weight: bolder;
+}
+.language a{
+  z-index: 2;
+  text-decoration: none;
+  letter-spacing: -0.05em;
+  color: white;
+}
+.language i {
+  margin-right: 2px;
+}
+.language:hover{
+  opacity: 1;
+}
+
+
+
+
+
+/*-----footer-----*/
+footer {background-color: rgb(160, 160, 160);}
+
+.footerbackground {
+  z-index: 0;
+  position: absolute;
+  opacity: 0.45;
+  background-image: url(shefuyutaphotos/PSX_20201005_234953.jpg);
+  background-position: 0% 68%;
+  background-size: cover;
+  width: 100%;
+  height: 108px;
+}
+.links {
+  padding: 25px 0 48px 0;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  position: relative;
+  justify-content: center;
+}
+
+.links div {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin: 0 3% 0 3%;
+}
+.links a {color: rgb(160, 160, 160);}
+.links i {padding auto;}
+
+.ig {
+  font-weight: 500;
+  font-size: 23px;
+  margin-bottom: -4.5%;
+}
+.iglink:hover {
+  background: -webkit-radial-gradient(33% 100%, circle farthest-corner, #ffda75 21%, #ff3a49 43%, #ff3a49 48%, #e518a1 55%, #6634e1 100%);
+  opacity: 0.8;
+}
+.links div:hover a{color: white;}
+
+.twitter {
+  font-size: 20px;
+  margin-bottom: -2.5%;
+}
+
+.twitterlink:hover {
+  background-color: rgb(0, 172, 237);
+  color: white;
+  opacity: 0.8;
+}
+
+.tumblr {font-size: 18px;}
+
+.tumblrlink:hover {
+  background-color: rgb(53, 70, 92);
+  color: white;
+  opacity: 0.8;
+}
+
+.reference {
+  position: absolute;
+  bottom: 1px;
+  right:2px;
+  width: 100%;
+  text-align: right;
+}
+.reference a {
+  font-size: 6px;
+  text-decoration: none;
+  color: white;
+}

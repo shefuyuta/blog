@@ -106,7 +106,7 @@ border-top-width: 0;
 border-bottom-width: 2px;
 border-bottom-color: white;
 border-bottom-style: solid;
-opacity: 0.3;
+opacity: 0.2;
 }
 
 .currentpage {
@@ -121,7 +121,7 @@ padding: 0.5px 0 1.25px 0;
 .move {
 font-size: 14px;
 font-weight: 700;
-opacity:  0.8;
+opacity:  0.9;
 padding-bottom: 1px;
 }
 

@@ -16,7 +16,7 @@ header {
   z-index: 0;
   position: absolute;
   opacity: 0.45;
-  background-image: url(shefuyutaphotos/PSX_20201005_234953.jpg);
+  background-image: url(pictures/PSX_20201005_234953.jpg);
   background-position: 0% 40%;
   background-size: cover;
   width: 100%;
@@ -45,31 +45,10 @@ header {
   background-image: url(shefuyutaphotos/PSX_20200529_201911.jpg);
   background-size: cover;*/
 
-.language {
-  position: relative;
-  z-index: 2;
-  display: inline-block;
-  opacity: 0.8;
-  font-size: 90%;
-  font-style: italic;
-  float: right;
-  margin: 7px 10px 0 0;
-  font-weight: bolder;
+/*-----container-----*/
+container{
+  min-height: 80%;
 }
-.language a{
-  z-index: 2;
-  text-decoration: none;
-  letter-spacing: -0.05em;
-  color: white;
-}
-.language i {
-  margin-right: 2px;
-}
-.language:hover{
-  opacity: 1;
-}
-
-
 
 
 

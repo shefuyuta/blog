@@ -117,7 +117,7 @@ border-bottom-style: solid;
 }
 
 /*-----container-----*/
-container{
+.container{
   min-height: 80%;
     background-color: rgb(230, 230, 230);
 }

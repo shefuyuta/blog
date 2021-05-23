@@ -118,14 +118,14 @@ border-bottom-style: solid;
 padding: 0.5px 0 1.25px 0;
 }
 
-.hvr-icon-bob {
+.hvr-bob {
 font-size: 14px;
 font-weight: 700;
 opacity:  0.9;
 padding-bottom: 1px;
 }
 
-.hvr-icon-bob:hover {
+.hvr-bob:hover {
 opacity: 1;
 border-bottom-width: 2px;
 border-bottom-color: white;

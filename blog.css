@@ -149,12 +149,13 @@ border-bottom-style: solid;
 footer {
   background-color: rgb(160, 160, 160);
   width: 100%;
-  bottom: 0;
+  position: absolute;
 }
 
 .footerbackground {
   z-index: 0;
   position: absolute;
+  bottom: 0;
   opacity: 0.45;
   background-image: url(pictures/PSX_20201005_234953.jpg);
   background-position: 0% 68%;

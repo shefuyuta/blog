@@ -138,6 +138,11 @@ border-bottom-style: solid;
   background-color: rgb(230, 230, 230);
   position: absolute;
   top: 143px;
+  width: 100%;
+}
+.indexcontainer{
+    background-color: rgb(160, 160, 160);
+    width: 100%;
 }
 
 /*-----footer-----*/

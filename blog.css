@@ -24,9 +24,6 @@ header {
   background-color: rgb(160, 160, 160);
   width: 100%;
 }
-.indexheader{
-  background-color: transparent;
-}
 
 .headerbackground {
   z-index: 0;
@@ -139,9 +136,7 @@ border-bottom-style: solid;
 
 /*-----footer-----*/
 footer {background-color: rgb(160, 160, 160);}
-.indexfooter{
-  background-color: transparent;
-}
+
 .footerbackground {
   z-index: 0;
   position: absolute;

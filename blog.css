@@ -13,6 +13,12 @@ body{
   height: 100%;
   width: 100%;
 }
+
+.indexbody{
+  background-image: url(pictures/PSX_20201005_234953.jpg);
+  background-repeat: repeat-x;
+}
+
 header {
   background-color: rgb(160, 160, 160);
   width: 100%;

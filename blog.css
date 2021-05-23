@@ -149,7 +149,8 @@ border-bottom-style: solid;
 footer {
   background-color: rgb(160, 160, 160);
   width: 100%;
-  position: relative;
+  position: absolute;
+  bottom: 0;
 }
 
 .footerbackground {

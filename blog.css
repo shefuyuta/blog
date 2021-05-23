@@ -16,6 +16,7 @@ body{
 
 .indexbody{
   background-image: url(pictures/PSX_20201005_234953.jpg);
+  background-size: cover;
   background-repeat: repeat-x;
 }
 
@@ -23,6 +24,10 @@ header {
   background-color: rgb(160, 160, 160);
   width: 100%;
 }
+.indexheader{
+  background-color: transparent;
+}
+
 .headerbackground {
   z-index: 0;
   position: absolute;
@@ -134,7 +139,9 @@ border-bottom-style: solid;
 
 /*-----footer-----*/
 footer {background-color: rgb(160, 160, 160);}
-
+.indexfooter{
+  background-color: transparent;
+}
 .footerbackground {
   z-index: 0;
   position: absolute;

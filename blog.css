@@ -125,13 +125,12 @@ opacity:  0.9;
 padding-bottom: 1px;
 }
 
-.hvr-bob:hover {
+/* .hvr-bob:hover {
 opacity: 1;
-position: fixed;
 border-bottom-width: 2px;
 border-bottom-color: white;
 border-bottom-style: solid;
-}
+} */
 
 /*-----container-----*/
 .container{

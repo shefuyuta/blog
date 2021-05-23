@@ -13,7 +13,7 @@ body{
   height: 100%;
   width: 100%;
 }
-
+.indexbody{background-color: rgb(160, 160, 160);}
 .indexbbackground{
   width: 100%;
   height: inherit;
@@ -140,10 +140,12 @@ border-bottom-style: solid;
   top: 143px;
 }
 
-
-
 /*-----footer-----*/
-footer {background-color: rgb(160, 160, 160);}
+footer {
+  background-color: rgb(160, 160, 160);
+  width: 100%;
+  bottom: 0;
+}
 
 .footerbackground {
   z-index: 0;

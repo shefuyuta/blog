@@ -153,6 +153,8 @@ footer {
   bottom: 0;
 }
 
+.indexfooter{background-color: transparent;}
+
 .footerbackground {
   z-index: 0;
   position: absolute;

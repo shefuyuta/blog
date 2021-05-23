@@ -45,6 +45,72 @@ header {
   background-image: url(shefuyutaphotos/PSX_20200529_201911.jpg);
   background-size: cover;*/
 
+/* -----menu----- */
+.menu {
+z-index: 1;
+position: relative;
+width: inherit;
+height: 60px;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+/*グラデーション*/
+/*  background: -webkit-linear-gradient(bottom, transparent, rgb(130, 130, 130) 60%, rgb(130, 130, 130) 100%, transparent);*/
+}
+.menu a {
+z-index: 1;
+position: relative;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+letter-spacing: -0.025em;
+font-size: 1.1em;
+width: 10%;
+color: white;
+font-family: Arial Black;
+height: 25px;
+padding-top: 10px;
+}
+.menuunderline {
+z-index: 1;
+position: absolute;
+width: inherit;
+height: 36px;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+border-top-width: 0;
+border-bottom-width: 2px;
+border-bottom-color: white;
+border-bottom-style: solid;
+opacity: 0.3;
+}
+
+.currentpage {
+font-size: 16px;
+font-weight: 900;
+border-bottom-width: 2px;
+border-bottom-color: white;
+border-bottom-style: solid;
+padding: 0.5px 0 1.25px 0;
+}
+
+.move {
+font-size: 14px;
+font-weight: 700;
+opacity:  0.8;
+padding-bottom: 1px;
+}
+
+.move:hover {
+opacity: 1;
+border-bottom-width: 2px;
+border-bottom-color: white;
+border-bottom-style: solid;
+}
+
 /*-----container-----*/
 container{
   min-height: 80%;
@@ -59,7 +125,7 @@ footer {background-color: rgb(160, 160, 160);}
   z-index: 0;
   position: absolute;
   opacity: 0.45;
-  background-image: url(shefuyutaphotos/PSX_20201005_234953.jpg);
+  background-image: url(pictures/PSX_20201005_234953.jpg);
   background-position: 0% 68%;
   background-size: cover;
   width: 100%;

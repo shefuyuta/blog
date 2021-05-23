@@ -14,11 +14,11 @@ body{
   width: 100%;
 }
 .indexbody{background-color: rgb(160, 160, 160);}
-.indexbbackground{
+.indexbackground{
   width: 100%;
   height: inherit;
   position: absolute;
-  background-image: url(pictures/PSX_20201005_234953.jpg);
+  background-image: url(pictures/PXL_20210408_101654634.jpg);
   background-size: cover;
   background-repeat: repeat-x;
   opacity: 0.45;

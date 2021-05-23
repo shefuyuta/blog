@@ -125,7 +125,9 @@ border-bottom-style: solid;
 /*-----container-----*/
 .container{
   min-height: 500px;
-    background-color: rgb(230, 230, 230);
+  background-color: rgb(230, 230, 230);
+  position: absolute;
+  top: 143px;
 }
 
 

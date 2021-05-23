@@ -8,7 +8,7 @@ html {
 }
 
 /*-----header-----*/
-body{position: inherit;}
+body{margin: 0;}
 header {
   background-color: rgb(160, 160, 160);
   width: 100%;

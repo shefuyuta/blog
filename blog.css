@@ -198,7 +198,7 @@ footer {
 }
 .iglink:hover {
   background: -webkit-radial-gradient(33% 100%, circle farthest-corner, #ffda75 21%, #ff3a49 43%, #ff3a49 48%, #e518a1 55%, #6634e1 100%);
-  opacity: 0.8;
+  opacity: 0.95;
 }
 .links div:hover a{color: white;}
 
@@ -210,7 +210,7 @@ footer {
 .twitterlink:hover {
   background-color: rgb(0, 172, 237);
   color: white;
-  opacity: 0.8;
+  opacity: 0.95;
 }
 
 .tumblr {font-size: 18px;}
@@ -218,7 +218,7 @@ footer {
 .tumblrlink:hover {
   background-color: rgb(53, 70, 92);
   color: white;
-  opacity: 0.8;
+  opacity: 0.95;
 }
 
 .reference {

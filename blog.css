@@ -137,7 +137,7 @@ padding-bottom: 1px;
   transition: min-height 0.5s;
   list-style-type: none;
 }
-.sub li a {
+.submenu li a {
   font-size: ;
   color: white;
   opacity: 0.8;
@@ -145,11 +145,11 @@ padding-bottom: 1px;
   background-color: transparent;
 }
 
-.sub li a:hover{
+.submenu li a:hover{
   opacity: 1;
 }
 
-.sub.active{min-height: 180px;}
+.submenu.active{min-height: 150px;}
 
 /* .hvr-bob:hover {
 opacity: 1;

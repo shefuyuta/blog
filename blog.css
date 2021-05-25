@@ -188,6 +188,9 @@ border-bottom-style: solid;
   z-index: 1;
 }
 
+.message a{
+  padding-bottom: 2vh;
+}
 
 /*-----footer-----*/
 footer {

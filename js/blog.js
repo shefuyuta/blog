@@ -1,6 +1,6 @@
 
-let parent = document.querySelectorAll(".menu");
-let node = Array.prototype.slice.call(parent,0);
+var parent = document.querySelectorAll(".menu");
+var node = Array.prototype.slice.call(parent,0);
   node.forEach(function (element) {
       element.addEventListener(
         "mouseover",

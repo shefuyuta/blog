@@ -185,7 +185,7 @@ border-bottom-style: solid;
   flex-direction: column;
   font-size: 1.5vw;
   color: white;
-  opacity: 1;
+  z-index: 1;
 }
 
 

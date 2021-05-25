@@ -173,6 +173,7 @@ border-bottom-style: solid;
     width: 100%;
     min-height: 500px;
     justify-content: center;
+    z-index: 1;
 }
 
 .message{

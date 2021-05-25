@@ -127,6 +127,7 @@ padding-bottom: 1px;
 .submenu{
   overflow: hidden;
   position: absolute;
+  text-align: center;
   left: 0;
   top: 2em;
   width: 100%;
@@ -166,8 +167,20 @@ border-bottom-style: solid;
   width: 100%;
 }
 .indexcontainer{
+    display: flex;
     background-color: rgb(160, 160, 160);
     width: 100%;
+    min-height: 500px;
+    justify-content: center;
+}
+
+.message{
+  width: 80%;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /*-----footer-----*/

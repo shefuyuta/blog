@@ -5,7 +5,7 @@ let node = Array.prototype.slice.call(parent,0);
       element.addEventListener(
         "mouseover",
         function() {
-          element.querySelector(".submenu").classList.add("acrive");
+          element.querySelector(".submenu").classList.add("active");
         },
         false
       );

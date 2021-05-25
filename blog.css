@@ -124,6 +124,30 @@ font-weight: 700;
 opacity:  0.9;
 padding-bottom: 1px;
 }
+.submenu{
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 2em;
+  width: 100%;
+  min-height: 0;
+  height: 0;
+  z-index: 3;
+  transition: min-height 0.5s;
+}
+.sub li a {
+  font-size: ;
+  color: white;
+  opacity: 0.8;
+  line-height: 1.5;
+  background-color: transparent;
+}
+
+.sub li a:hover{
+  opacity: 1;
+}
+
+.sub.active{min-height: 180px;}
 
 /* .hvr-bob:hover {
 opacity: 1;

@@ -165,6 +165,7 @@ border-bottom-style: solid;
   position: absolute;
   top: 143px;
   width: 100%;
+  z-index: 1;
 }
 .indexcontainer{
     display: flex;

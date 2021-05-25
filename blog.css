@@ -67,7 +67,7 @@ header {
   background-size: cover;*/
 
 /* -----menu----- */
-.menu ul{
+.menu {
 z-index: 1;
 list-style-type: none;
 width: inherit;

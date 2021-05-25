@@ -67,15 +67,16 @@ header {
   background-size: cover;*/
 
 /* -----menu----- */
-.menu {
+.menu ul{
 z-index: 1;
-position: relative;
+list-style-type: none;
 width: inherit;
 height: 60px;
 display: flex;
 flex-direction: row;
 flex-wrap: nowrap;
 justify-content: center;
+
 /*グラデーション*/
 /*  background: -webkit-linear-gradient(bottom, transparent, rgb(130, 130, 130) 60%, rgb(130, 130, 130) 100%, transparent);*/
 }
@@ -127,7 +128,6 @@ padding-bottom: 1px;
 .submenu{
   overflow: hidden;
   position: absolute;
-  
   text-align: center;
   left: 0;
   top: 2em;

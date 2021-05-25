@@ -183,6 +183,11 @@ border-bottom-style: solid;
   flex-direction: column;
 }
 
+.message a{
+  font-size: 2em;
+  color: white;
+}
+
 /*-----footer-----*/
 footer {
   background-color: rgb(160, 160, 160);

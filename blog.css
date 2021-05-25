@@ -150,6 +150,7 @@ padding-bottom: 1px;
 .submenu.active{
   min-height: 150px;
   background-color: rgb(230, 230, 230);
+  opacity: 0.8;
 }
 
 /* .hvr-bob:hover {

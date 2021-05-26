@@ -143,7 +143,7 @@ padding-bottom: 1px;
 .submenu li a {
   color: white;
   opacity: 0.8;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 .submenu li a:hover{opacity: 1;}

@@ -1,4 +1,4 @@
-var parent = document.querySelectorAll(".hassub");
+var parent = document.querySelectorAll("#menublog");
 
   var node = Array.prototype.slice.call(parent, 0);
 

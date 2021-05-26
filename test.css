@@ -6,9 +6,10 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
+  width: 10%;
 }
 
-.menulist li{
+.menulist li a{
   display: inline-block;
   letter-spacing: -0.025em;
   font-size: 1.1em;

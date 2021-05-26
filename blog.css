@@ -133,6 +133,7 @@ padding-bottom: 1px;
   left: 0;
   top: 2em;
   min-height: 0;
+  height: 0;
   z-index: 3;
   transition: min-height 0.5s;
   list-style-type: none;

@@ -146,7 +146,7 @@ padding-bottom: 1px;
 
 .submenu li a:hover{opacity: 1;}
 
-.submenu active{min-height: 180px;}
+.submenu.active{min-height: 180px;}
 
 /* .hvr-bob:hover {
 opacity: 1;

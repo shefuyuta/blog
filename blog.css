@@ -134,24 +134,21 @@ padding-bottom: 1px;
   top: 2em;
   min-height: 0;
   height: 0;
-  z-index: 4;
+  z-index: 3;
   transition: min-height 0.5s;
   list-style-type: none;
 }
 .submenu li a {
-  font-size: ;
   color: white;
   opacity: 0.8;
   line-height: 1.5;
-  display: inherit;
+  position: relative;
+  z-index: 3;
 }
 
 .submenu li a:hover{opacity: 1;}
 
-.submenu.active{
-  min-height: 150px;
-  z-index: 2;
-}
+.submenu.active{min-height: 150px;}
 
 /* .hvr-bob:hover {
 opacity: 1;

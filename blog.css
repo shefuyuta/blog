@@ -130,21 +130,19 @@ padding-bottom: 1px;
   overflow: hidden;
   position: absolute;
   text-align: center;
-  left: 35%;
+  left: 32%;
   top: 2em;
   width: 15%;
   /* min-height: 0;
   height: 0; */
   z-index: 3;
-  transition: min-height 0.5s;
+  /* transition: min-height 0.5s; */
   list-style-type: none;
 }
 .submenu li a {
   color: white;
   opacity: 0.8;
   line-height: 1.5;
-  position: relative;
-  z-index: 3;
 }
 
 .submenu li a:hover{opacity: 1;}

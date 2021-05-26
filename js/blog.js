@@ -1,5 +1,5 @@
 
-var parent = document.querySelectorId(".submenu");
+var parent = document.querySelectorAll(".hassub");
 var node = Array.prototype.slice.call(parent,0);
   node.forEach(function (element) {
       element.addEventListener(

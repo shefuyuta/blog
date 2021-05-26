@@ -1,5 +1,5 @@
 
-var parent = document.querySelectorid("#menublog");
+var parent = document.querySelectorId("#menublog");
 var node = Array.prototype.slice.call(parent,0);
   node.forEach(function (element) {
       element.addEventListener(

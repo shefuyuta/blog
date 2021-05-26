@@ -131,7 +131,7 @@ padding-bottom: 1px;
   position: absolute;
   text-align: center;
   top: 2em;
-  width: 15%;
+  /* width: 15%; */
   /* min-height: 0;
   height: 0; */
   z-index: 3;

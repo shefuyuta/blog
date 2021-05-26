@@ -1,0 +1,8 @@
+Cmd + /	選択した行全てをコメントアウト
+Shift + Cmd + d	行のコピー+ペースト
+Shift + Ctrl + k	行の削除
+Cmd + Enter	行から改行(カーソルはどこでもOK)
+Cmd + Shift + Enter	行の一つ上の行を改行
+Cmd + d	選択した単語を一つずつ検索して足して行く
+Cmd + j 次の行を後ろにつなげる
+Cmd + Ctrl + カーソル 列移動

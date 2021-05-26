@@ -130,7 +130,6 @@ padding-bottom: 1px;
   overflow: hidden;
   position: absolute;
   text-align: center;
-  left: 32%;
   top: 2em;
   width: 15%;
   /* min-height: 0;
@@ -143,7 +142,6 @@ padding-bottom: 1px;
 .submenu li a {
   color: white;
   opacity: 0.8;
-  line-height: 1.2;
 }
 
 .submenu li a:hover{opacity: 1;}

@@ -13,5 +13,7 @@
 .menulist li {
   width: 10%;
   position: relative;
+}
+.menulist li a{
   text-align: center;
 }

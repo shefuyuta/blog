@@ -1,15 +1,15 @@
 $(function(){
   $("#menublog").mouseover(function(){
-    $(this).children(".submenu").stop().slideDown();
+    $(".submenu").stop().slideDown();
   });
   $("#menublog").mouseout(function(){
     $(".submenu").stop().slideUp();
-    subHeight = $(this).children(".submenu").height();
+    subHeight = $(".submenu").height();
     $(".submenu").removeClass("active");
     if( subHeight <= 0 ){
-      $(this).children(".submenu").addClass("active");
+      $(".submenu").addClass("active");
     }else{
-      $(this).children(".submenu").removeClass("active");
+      $(".submenu").removeClass("active");
     }
   });
 });

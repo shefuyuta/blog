@@ -2,8 +2,6 @@
   position: relative;
   z-index: 1;
   list-style-type: none;
-  width: inherit;
-  height: 60px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -11,5 +9,8 @@
 }
 
 .menulist li{
-  
+  display: inline-block;
+  letter-spacing: -0.025em;
+  font-size: 1.1em;
+  width: 10%;
 }

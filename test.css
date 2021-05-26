@@ -8,6 +8,7 @@
   justify-content: center;
   margin: 0;
   width: inherit;
+  padding: 0;
 }
 
 .menulist li a{

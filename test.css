@@ -10,7 +10,7 @@
   letter-spacing: -0.025em;
 }
 
-.menulist li {
+.menulist > li {
   width: 10%;
   position: relative;
   text-align: center;

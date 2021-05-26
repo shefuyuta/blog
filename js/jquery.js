@@ -1,6 +1,6 @@
 $(function(){
   $("#menublog").mouseover(function(){
-    $(".submenu").stop().slideDown();
+    $(this).children(".submenu").stop().slideDown();
   });
   $("#menublog").mouseout(function(){
     $(".submenu").stop().slideUp();

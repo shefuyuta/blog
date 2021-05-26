@@ -1,8 +1,8 @@
 $(function(){
-  $(".hassub").mouseover(function(){
+  $("#menublog").mouseover(function(){
     $(this).children(".submenu").stop().slideDown();
   });
-  $(".hassub").mouseout(function(){
+  $("#menublog").mouseout(function(){
     $(".submenu").stop().slideUp();
   });
 });

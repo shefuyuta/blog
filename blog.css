@@ -132,6 +132,7 @@ padding-bottom: 1px;
   text-align: center;
   top: 2em;
   min-height: 0;
+  left: 0;
   height: 0;
   z-index: 3;
   transition: min-height 0.5s;

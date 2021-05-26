@@ -126,22 +126,6 @@ font-weight: 700;
 opacity:  0.9;
 padding-bottom: 1px;
 }
-
-
-.menulist{
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-}
-
-.hassub{
-
-}
-
-
-
 .submenu{
   overflow: hidden;
   position: absolute;

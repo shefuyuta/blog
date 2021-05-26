@@ -5,14 +5,14 @@ var node = Array.prototype.slice.call(parent,0);
       element.addEventListener(
         "mouseover",
         function() {
-          element.querySelector(".menu").classList.add("active");
+          element.querySelector("#menublog").classList.add("active");
         },
         false
       );
       element.addEventListener(
       "mouseout",
       function () {
-      element.querySelector(".menu").classList.remove("active");
+      element.querySelector("#menublog").classList.remove("active");
     },
     false
   );

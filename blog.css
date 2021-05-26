@@ -137,6 +137,7 @@ padding-bottom: 1px;
   z-index: 3;
   transition: min-height 0.5s;
   list-style-type: none;
+  background-color: rgb(160, 160, 160);
 }
 .submenu li a {
   font-size: ;
@@ -150,7 +151,6 @@ padding-bottom: 1px;
 
 .submenu.active{
   min-height: 150px;
-  background-color: rgb(230, 230, 230);
   opacity: 0.8;
 }
 

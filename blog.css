@@ -128,7 +128,7 @@ padding-bottom: 1px;
 }
 .submenu{
   overflow: hidden;
-  position: relative;
+  position: absolute;
   text-align: center;
   left: 0;
   top: 2em;
@@ -137,21 +137,19 @@ padding-bottom: 1px;
   z-index: 4;
   transition: min-height 0.5s;
   list-style-type: none;
-  background-color: rgb(160, 160, 160);
 }
 .submenu li a {
   font-size: ;
   color: white;
   opacity: 0.8;
   line-height: 1.5;
-  background-color: transparent;
 }
 
 .submenu li a:hover{opacity: 1;}
 
 .submenu.active{
   min-height: 150px;
-  opacity: 0.8;
+  z-index: 2;
 }
 
 /* .hvr-bob:hover {

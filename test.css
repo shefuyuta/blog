@@ -1,0 +1,15 @@
+.menulist{
+  position: relative;
+  z-index: 1;
+  list-style-type: none;
+  width: inherit;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.menulist li{
+  
+}

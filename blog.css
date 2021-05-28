@@ -164,7 +164,7 @@ padding-bottom: 1px;
   left: 40%;
   height: 0;
   z-index: 3;
-  transition: min-height 0.8s;
+  transition: min-height 1.0s;
   list-style-type: none;
   display: none;
 

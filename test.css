@@ -1,10 +1,9 @@
 .menulist{
-  position: relative;
+  /* position: relative; */
   list-style-type: none;
   display: flex;
   justify-content: center;
   margin: 0 0 21.25px 0;
-  align-items: center;
   width: 100%;
   padding: 0;
   letter-spacing: -0.025em;
@@ -12,7 +11,7 @@
 
 .menulist > li {
   width: 10%;
-  position: relative;
+  /* position: relative; */
   text-align: center;
 }
 .menulist li a{

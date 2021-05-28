@@ -113,6 +113,7 @@ opacity: 0.2;
 .menulist{
   /* position: relative; */
   hight: 38px;
+  position: relative;
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -120,17 +121,16 @@ opacity: 0.2;
   width: 100%;
   padding: 0;
   letter-spacing: -0.025em;
+  z-index: 3;
+
 }
 
 .menulist > li {
   width: 10%;
-  position: relative;
   text-align: center;
-  z-index: 1;
-
 }
 
-.menulist > li > a {
+.menulist a {
   text-decoration: none;
   letter-spacing: -0.025em;
   font-size: 1.1em;

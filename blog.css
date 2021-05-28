@@ -149,6 +149,28 @@ padding-bottom: 1px;
 
 .submenu.active{min-height: 180px;}
 
+.menulist{
+  /* position: relative; */
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 21.5px 0;
+  width: 100%;
+  padding: 0;
+  letter-spacing: -0.025em;
+}
+
+.menulist > li {
+  width: 10%;
+  /* position: relative; */
+  text-align: center;
+  margin-bottom: 0.25px;
+}
+.menulist li a{
+
+}
+
+
 /* .hvr-bob:hover {
 opacity: 1;
 border-bottom-width: 2px;

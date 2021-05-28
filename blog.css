@@ -159,7 +159,7 @@ padding-bottom: 1px;
   overflow: hidden;
   position: absolute;
   text-align: center;
-  top: 2em;
+  top: 3em;
   min-height: 0;
   left: 0;
   height: 0;
@@ -167,7 +167,6 @@ padding-bottom: 1px;
   transition: min-height 0.5s;
   list-style-type: none;
   display: none;
-  width: 100%;
 }
 .submenu li a {
   color: white;

@@ -142,7 +142,7 @@ padding-bottom: 1px;
 
 .submenu li {
   position: relative;
-  z-index;
+  z-index: 3;
 }
 
 .submenu li a {

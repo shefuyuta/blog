@@ -124,8 +124,10 @@ opacity: 0.2;
 
 .menulist > li {
   width: 10%;
-  /* position: relative; */
+  position: relative;
   text-align: center;
+  z-index: 1;
+
 }
 
 .menulist > li > a {
@@ -177,14 +179,6 @@ padding-bottom: 1px;
 .submenu.active{min-height: 180px;}
 
 
-
-
-/* .hvr-bob:hover {
-opacity: 1;
-border-bottom-width: 2px;
-border-bottom-color: white;
-border-bottom-style: solid;
-} */
 
 /*-----container-----*/
 .container{

@@ -155,7 +155,7 @@ padding-bottom: 1px;
   transition: min-height 0.5s;
   list-style-type: none;
   display: none;
-  width: auto;
+  width: 100%;
 }
 .submenu li a {
   color: white;

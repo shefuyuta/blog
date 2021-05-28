@@ -110,6 +110,23 @@ border-bottom-color: white;
 border-bottom-style: solid;
 opacity: 0.2;
 }
+.menulist{
+  /* position: relative; */
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 21.5px 0;
+  width: 100%;
+  padding: 0;
+  letter-spacing: -0.025em;
+}
+
+.menulist > li {
+  width: 10%;
+  /* position: relative; */
+  text-align: center;
+  margin-bottom: 0.3px;
+}
 
 .currentpage {
 font-size: 16px;
@@ -148,26 +165,7 @@ padding-bottom: 1px;
 
 .submenu.active{min-height: 180px;}
 
-.menulist{
-  /* position: relative; */
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  margin: 0 0 21.5px 0;
-  width: 100%;
-  padding: 0;
-  letter-spacing: -0.025em;
-}
 
-.menulist > li {
-  width: 10%;
-  /* position: relative; */
-  text-align: center;
-  margin-bottom: 0.3px;
-}
-.menulist li a{
-
-}
 
 
 /* .hvr-bob:hover {
@@ -181,10 +179,8 @@ border-bottom-style: solid;
 .container{
   min-height: 500px;
   background-color: rgb(230, 230, 230);
-  position: absolute;
   top: 143px;
   width: 100%;
-  z-index: 1;
 }
 .indexcontainer{
     display: flex;
@@ -192,7 +188,6 @@ border-bottom-style: solid;
     width: 100%;
     min-height: 500px;
     justify-content: center;
-    z-index: 1;
 }
 
 .message{
@@ -205,7 +200,6 @@ border-bottom-style: solid;
   flex-direction: column;
   font-size: 1.5vw;
   color: white;
-  z-index: 1;
 }
 
 .message a{

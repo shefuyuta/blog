@@ -157,7 +157,7 @@ padding-bottom: 1px;
 .submenu{
   overflow: hidden;
   position: absolute;
-  
+
   text-align: center;
   top: 3em;
   min-height: 0;
@@ -167,7 +167,7 @@ padding-bottom: 1px;
   transition: min-height 0.8s;
   list-style-type: none;
   display: none;
-  width: 20%;
+  width: 50%;
 
 }
 .submenu li a {

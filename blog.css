@@ -81,7 +81,7 @@ justify-content: center;
 /*グラデーション*/
 /*  background: -webkit-linear-gradient(bottom, transparent, rgb(130, 130, 130) 60%, rgb(130, 130, 130) 100%, transparent);*/
 }
-.menu a {
+.menu > li > a {
 z-index: 1;
 position: relative;
 text-align: center;

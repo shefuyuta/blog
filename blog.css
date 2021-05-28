@@ -126,7 +126,7 @@ opacity: 0.2;
 
 .menulist > li {
   height: 25px;
-  padding-top: 10px;
+  padding: 10px 0 1.25px 0;
   width: 10%;
   text-align: center;
 }

@@ -160,12 +160,14 @@ padding-bottom: 1px;
   text-align: center;
   top: 3em;
   min-height: 0;
-  left: 0;
+  left: 40%;
   height: 0;
   z-index: 3;
-  transition: min-height 0.5s;
+  transition: min-height 0.8s;
   list-style-type: none;
   display: none;
+  width: 100%;
+
 }
 .submenu li a {
   color: white;

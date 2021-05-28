@@ -126,8 +126,17 @@ opacity: 0.2;
   width: 10%;
   /* position: relative; */
   text-align: center;
-  margin-bottom: 0.3px;
 }
+
+.menulist > li > a {
+  text-decoration: none;
+  letter-spacing: -0.025em;
+  font-size: 1.1em;
+  width: 10%;
+  color: white;
+  font-family: Arial Black;
+}
+
 
 .currentpage {
 font-size: 16px;

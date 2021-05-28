@@ -141,7 +141,7 @@ padding-bottom: 1px;
 }
 
 .submenu li {
-  position: absolute;
+  position: relative;
   z-index: 3;
 }
 

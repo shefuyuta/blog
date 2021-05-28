@@ -139,6 +139,12 @@ padding-bottom: 1px;
   list-style-type: none;
   display: none;
 }
+
+.submenu li {
+  position: relative;
+  z-index;
+}
+
 .submenu li a {
   color: white;
   opacity: 0.8;

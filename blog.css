@@ -181,7 +181,7 @@ border-bottom-style: solid;
   color: white;
   line-height: normal;
 }
-.submenu li a:hover{opacity: 1;}
+.submenu li:hover{opacity: 1;}
 .submenu.active{
   min-height: 180px;
   display: block;

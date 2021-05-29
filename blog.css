@@ -171,7 +171,7 @@ border-bottom-style: solid;
 .submenu li{
   opacity: 0.8;
   marging-top: 4px;
-  padding: 10px 0 0 5px; 
+  padding: 10px 0 0 5px;
   width: 10%;
   border-left: 2px;
   border-left-color: white;
@@ -226,7 +226,7 @@ border-bottom-style: solid;
 
 .message{
   width: 80%;
-  margin-top: 100px;
+  margin-top: 140px;
   min-height: 70px;
   display: flex;
   justify-content: center;

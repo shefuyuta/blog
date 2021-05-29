@@ -153,19 +153,10 @@ border-bottom-style: solid;
   font-weight: 700;
 }
 
-.submenuline{
-  position: relative;
-  height: 100%;
-  border-left: 2px;
-  opacity: 0.2;
-  border-left-color: white;
-  border-left-style: solid;
-}
-
 .submenu{
   overflow: hidden;
   position: absolute;
-  padding: 3px 0 0 0;
+  padding: 3.25px 0 0 0;
   text-align: center;
   min-height: 0;
   left: 40%;
@@ -173,6 +164,16 @@ border-bottom-style: solid;
   z-index: 3;
   list-style-type: none;
   display: none;
+}
+
+.submenuline{
+  position: relative;
+  height: 100%;
+  border-left: 2px;
+  opacity: 0.2;
+  border-left-color: white;
+  border-left-style: solid;
+  z-index: 1;
 }
 
 .submenu li{

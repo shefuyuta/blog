@@ -166,16 +166,16 @@ border-bottom-style: solid;
   transition: min-height: 1.0s;
   list-style-type: none;
   display: none;
-}
-
-.submenu li{
   opacity: 0.8;
   marging-top: 4px;
-  padding: 10px 0 0 5px;
-  width: 10%;
   border-left: 2px;
   border-left-color: white;
   border-left-style: solid;
+}
+
+.submenu li{
+  padding: 10px 0 0 5px;
+  width: 10%;
 }
 
 .submenu > li > a {

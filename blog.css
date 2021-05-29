@@ -149,9 +149,11 @@ border-bottom-color: white;
 border-bottom-style: solid;
 }
 
-.hvr-bob {
-font-weight: 700;
+.move{
+  font-weight: 700;  
 }
+
+
 .submenu{
   overflow: hidden;
   position: absolute;

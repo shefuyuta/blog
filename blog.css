@@ -153,6 +153,15 @@ border-bottom-style: solid;
   font-weight: 700;
 }
 
+.submenuline{
+  position: relative;
+  height: 100%;
+  border-left: 2px;
+  opacity: 0.2;
+  border-left-color: white;
+  border-left-style: solid;
+}
+
 .submenu{
   overflow: hidden;
   position: absolute;
@@ -164,16 +173,6 @@ border-bottom-style: solid;
   z-index: 3;
   list-style-type: none;
   display: none;
-}
-
-.submenuline{
-  position: relative;
-  height: 100%;
-  border-left: 3px;
-  opacity: 0.2;
-  border-left-color: white;
-  border-left-style: solid;
-  z-index: 1;
 }
 
 .submenu li{
@@ -190,12 +189,31 @@ border-bottom-style: solid;
   line-height: normal;
 }
 .submenu li a:hover{opacity: 1;}
+.submenu li a:hover{opacity: 1;}
 
 .submenu.active{
   min-height: 180px;
   display: block;
   transition: min-height: 1.0s;
 }
+
+.submenu li a:hover + #menublog {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
 
 
 /*-----container-----*/

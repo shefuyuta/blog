@@ -168,7 +168,7 @@ border-bottom-style: solid;
 .submenu > li{
   width: 10%;
   opacity: 0.5;
-  border-left: 2px;
+  border-left: 3px;
   border-left-color: white;
   border-left-style: solid;
   padding-left: 5px;
@@ -176,7 +176,7 @@ border-bottom-style: solid;
 
 .submenu li a {
   color: white;
-  opacity: 0.8;
+  opacity: 1.5;
 }
 .submenu li:hover{opacity: 1;}
 .submenu.active{

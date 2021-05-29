@@ -169,7 +169,9 @@ border-bottom-style: solid;
 }
 
 .submenu li{
-  padding-top: 10px; 
+  opacity: 0.8;
+  marging-top: 4px;
+  padding: 10px 0 0 5px; 
   width: 10%;
   border-left: 2px;
   border-left-color: white;
@@ -178,7 +180,6 @@ border-bottom-style: solid;
 
 .submenu > li > a {
   color: white;
-  opacity: 0.8;
   line-height: normal;
 }
 .submenu li a:hover{opacity: 1;}

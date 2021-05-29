@@ -155,7 +155,7 @@ border-bottom-style: solid;
 
 /* .submenuline{
   position: relative;
-  height: auto;
+  height: 100%;
   border-left: 2px;
   opacity: 0.2;
   border-left-color: white;

@@ -168,7 +168,7 @@ border-bottom-style: solid;
 
 .submenu > li{
   width: 10%;
-  background: rgba(,0.5);
+  opacity: 0.5;
   border-left: 3px;
   border-left-color: white;
   border-left-style: solid;

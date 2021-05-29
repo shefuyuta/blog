@@ -150,10 +150,7 @@ border-bottom-color: white;
 border-bottom-style: solid;
 }
 
-.move{
-  display: block;
-  font-weight: 700;
-}
+.move{font-weight: 700;}
 .submenu{
   overflow: hidden;
   position: absolute;
@@ -165,10 +162,10 @@ border-bottom-style: solid;
   z-index: 3;
   list-style-type: none;
   display: none;
-  transition: min-height 0.5s;
+  transition: min-height 0.4s;
 }
 
-.submenu li{
+.submenu > li{
   position: relative;
   width: 10%;
   opacity: 0.5;
@@ -179,7 +176,7 @@ border-bottom-style: solid;
   z-index: 3px;
 }
 
-.submenu > li > a {
+.submenu li a {
   color: white;
   opacity: 0.8;
 }

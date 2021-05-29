@@ -366,7 +366,7 @@
 }
 .hvr-bob {
   display: inline-block;
-  width: auto;
+  width: 100%;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);

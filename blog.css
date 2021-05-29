@@ -161,9 +161,7 @@ border-bottom-style: solid;
   height: 0;
   z-index: 3;
   list-style-type: none;
-  display: none;
-  transition-property: min-height;
-  transition-duration: 0.4s;
+  transition: min-height 0.4s;
 }
 
 .sideline{
@@ -190,7 +188,6 @@ border-bottom-style: solid;
 .submenu li:hover{opacity: 1;}
 .submenu.active{
   min-height: 180px;
-  display: block;
 }
 
 /*-----container-----*/

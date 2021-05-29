@@ -153,14 +153,14 @@ border-bottom-style: solid;
   font-weight: 700;
 }
 
-/* .submenuline{
+.submenuline{
   position: relative;
   height: 100%;
   border-left: 2px;
   opacity: 0.2;
   border-left-color: white;
   border-left-style: solid;
-} */
+}
 
 .submenu{
   overflow: hidden;

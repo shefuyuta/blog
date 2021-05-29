@@ -166,6 +166,14 @@ border-bottom-style: solid;
   transition-duration: 0.4s;
 }
 
+.sideline{
+  opacity: 0.5
+  border-left: 3px;
+  border-left-color: white;
+  border-left-style: solid;
+  width: 3px
+}
+
 .submenu > li{
   width: 10%;
   opacity: 0.5;
@@ -177,7 +185,6 @@ border-bottom-style: solid;
 
 .submenu li a {
   color: white;
-  opacity: 0.8;
 }
 .submenu li:hover{opacity: 1;}
 .submenu.active{

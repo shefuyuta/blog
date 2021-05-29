@@ -153,11 +153,19 @@ border-bottom-style: solid;
   font-weight: 700;
 }
 
+.submenuline{
+  position: relative;
+  height: auto;
+  border-left: 2px;
+  opacity: 0.2;
+  border-left-color: white;
+  border-left-style: solid;
+}
 
 .submenu{
   overflow: hidden;
   position: absolute;
-  padding: 0;
+  padding: 3px 0 0 0;
   text-align: center;
   min-height: 0;
   left: 40%;
@@ -170,18 +178,19 @@ border-bottom-style: solid;
 .submenu li{
   width: 10%;
   opacity: 0.8;
-  marging-top: 4px;
-  border-left: 2px;
+  /* border-left: 2px;
   border-left-color: white;
   border-left-style: solid;
-  padding-left: 5px;
+  padding-left: 5px; */
 }
 
 .submenu > li > a {
   color: white;
   line-height: normal;
 }
-.submenu li:hover{opacity: 1;}
+.submenu li a:hover{opacity: 1;}
+.submenu li a:hover{opacity: 1;}
+
 .submenu.active{
   min-height: 180px;
   display: block;

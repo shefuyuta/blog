@@ -177,8 +177,7 @@ padding-bottom: 1px;
 .submenu.active{
   /* min-height: 180px; */
   height: 180px;
-  display: block;
-  overflow-y: visible;
+  display: block;  
 }
 
 

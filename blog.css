@@ -151,16 +151,6 @@ border-bottom-style: solid;
   display: block;
   font-weight: 700;
 }
-
-.submenuline{
-  position: relative;
-  height: 100%;
-  border-left: 2px;
-  opacity: 0.2;
-  border-left-color: white;
-  border-left-style: solid;
-}
-
 .submenu{
   overflow: hidden;
   position: absolute;
@@ -172,13 +162,13 @@ border-bottom-style: solid;
   z-index: 3;
   list-style-type: none;
   display: none;
-  transition: min-height: 0.5s;
+  transition: min-height 0.5s;
 }
 
 .submenu li{
   position: relative;
   width: 10%;
-  opacity: 0.8;
+  opacity: 0.5;
   border-left: 2px;
   border-left-color: white;
   border-left-style: solid;
@@ -186,7 +176,10 @@ border-bottom-style: solid;
   z-index: 3px;
 }
 
-.submenu > li > a {color: white;}
+.submenu > li > a {
+  color: white;
+  opacity: 0.8;
+}
 .submenu li:hover{opacity: 1;}
 .submenu.active{
   min-height: 180px;

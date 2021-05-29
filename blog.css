@@ -163,7 +163,7 @@ padding-bottom: 1px;
   top: 3em;
   min-height: 0;
   left: 43%;
-  height: 0;
+  /* height: 0; */
   z-index: 3;
   transition: min-height 1.0s;
   list-style-type: none;

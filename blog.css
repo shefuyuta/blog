@@ -162,7 +162,8 @@ border-bottom-style: solid;
   z-index: 3;
   list-style-type: none;
   display: none;
-  transition: min-height 0.4s;
+  transition-property: min-height;
+  transition-duration: 0.4s;
 }
 
 .submenu > li{

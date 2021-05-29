@@ -176,6 +176,7 @@ border-bottom-style: solid;
 }
 
 .submenu li{
+  position: relative;
   width: 10%;
   opacity: 0.8;
   border-left: 2px;

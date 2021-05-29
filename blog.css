@@ -172,6 +172,7 @@ border-bottom-style: solid;
   z-index: 3;
   list-style-type: none;
   display: none;
+  transition: min-height: 0.5s;
 }
 
 .submenu li{
@@ -189,7 +190,6 @@ border-bottom-style: solid;
 .submenu.active{
   min-height: 180px;
   display: block;
-  transition: min-height: 1.0s;
 }
 
 /*-----container-----*/

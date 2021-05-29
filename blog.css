@@ -187,7 +187,7 @@ border-bottom-style: solid;
 }
 
 .submenu > li > a {color: white;}
-.submenu li a:hover{opacity: 1;}
+.submenu li:hover{opacity: 1;}
 .submenu.active{
   min-height: 180px;
   display: block;
@@ -217,7 +217,7 @@ border-bottom-style: solid;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: white;
   z-index: 1;
 }

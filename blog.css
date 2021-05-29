@@ -157,7 +157,7 @@ border-bottom-style: solid;
 .submenu{
   overflow: hidden;
   position: absolute;
-  padding: 10px 0 0 0;
+  padding: 0;
   text-align: center;
   min-height: 0;
   left: 40%;
@@ -169,7 +169,11 @@ border-bottom-style: solid;
 }
 
 .submenu li{
+  padding-top: 10px; 
   width: 10%;
+  border-left: 2px;
+  border-left-color: white;
+  border-left-style: solid;
 }
 
 .submenu > li > a {

@@ -167,6 +167,7 @@ border-bottom-style: solid;
 }
 
 .sideline{
+  position: absolute;
   opacity: 0.5
   border-left: 3px;
   border-left-color: white;

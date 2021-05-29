@@ -181,39 +181,16 @@ border-bottom-style: solid;
   border-left-color: white;
   border-left-style: solid;
   padding-left: 5px;
+  z-index: 3px;
 }
 
-.submenu > li > a {
-  color: white;
-  line-height: normal;
-}
+.submenu > li > a {color: white;}
 .submenu li a:hover{opacity: 1;}
-.submenu li a:hover{opacity: 1;}
-
 .submenu.active{
   min-height: 180px;
   display: block;
   transition: min-height: 1.0s;
 }
-
-.submenu li a:hover + #menublog {
-  -webkit-animation-name: hvr-bob-float, hvr-bob;
-  animation-name: hvr-bob-float, hvr-bob;
-  -webkit-animation-duration: .3s, 1.5s;
-  animation-duration: .3s, 1.5s;
-  -webkit-animation-delay: 0s, .3s;
-  animation-delay: 0s, .3s;
-  -webkit-animation-timing-function: ease-out, ease-in-out;
-  animation-timing-function: ease-out, ease-in-out;
-  -webkit-animation-iteration-count: 1, infinite;
-  animation-iteration-count: 1, infinite;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-direction: normal, alternate;
-  animation-direction: normal, alternate;
-}
-
-
 
 /*-----container-----*/
 .container{

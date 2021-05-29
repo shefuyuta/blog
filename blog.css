@@ -171,10 +171,10 @@ border-bottom-style: solid;
   border-left: 2px;
   border-left-color: white;
   border-left-style: solid;
+  padding: 10px 0 0 5px;
 }
 
 .submenu li{
-  padding: 10px 0 0 5px;
   width: 10%;
 }
 

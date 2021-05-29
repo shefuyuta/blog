@@ -165,7 +165,7 @@ padding-bottom: 1px;
   left: 43%;
   height: 0;
   z-index: 3;
-  transition: min-height 1.0s;
+  transition: height 1.0s;
   list-style-type: none;
   display: none;
 }
@@ -177,7 +177,7 @@ padding-bottom: 1px;
 .submenu.active{
   /* min-height: 180px; */
   height: 180px;
-  display: block;  
+  display: block;
 }
 
 

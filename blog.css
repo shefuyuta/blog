@@ -173,6 +173,7 @@ padding-bottom: 1px;
   opacity: 0.8;
   line-height: normal;
   width: auto;
+  text-align: left;
 }
 .submenu li a:hover{opacity: 1;}
 .submenu.active{

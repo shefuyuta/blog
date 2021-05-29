@@ -162,14 +162,14 @@ padding-bottom: 1px;
   text-align: center;
   top: 3em;
   min-height: 0;
-  left: 43%;
+  left: 40%;
   height: 0;
   z-index: 3;
   transition: min-height 1.0s;
   list-style-type: none;
   display: none;
 }
-.submenu li a {
+.submenu > li > a {
   color: white;
   opacity: 0.8;
   line-height: normal;
@@ -177,7 +177,6 @@ padding-bottom: 1px;
 .submenu li a:hover{opacity: 1;}
 .submenu.active{
   min-height: 180px;
-  /* height: 180px; */
   display: block;
 }
 

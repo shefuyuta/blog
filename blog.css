@@ -172,6 +172,7 @@ padding-bottom: 1px;
 .submenu li a {
   color: white;
   opacity: 0.8;
+  line-height: normal;
 }
 .submenu li a:hover{opacity: 1;}
 .submenu.active{

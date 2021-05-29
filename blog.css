@@ -163,7 +163,7 @@ padding-bottom: 1px;
   top: 3em;
   min-height: 0;
   left: 43%;
-  /* height: 0; */
+  height: 0;
   z-index: 3;
   transition: min-height 1.0s;
   list-style-type: none;
@@ -174,7 +174,12 @@ padding-bottom: 1px;
   opacity: 0.8;
 }
 .submenu li a:hover{opacity: 1;}
-.submenu.active{min-height: 180px;}
+.submenu.active{
+  /* min-height: 180px; */
+  height: 180px;
+  display: block;
+  overflow-y: visible;
+}
 
 
 

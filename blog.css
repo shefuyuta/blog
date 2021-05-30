@@ -166,6 +166,7 @@ border-bottom-style: solid;
 
 .sideline{
   position: relative;
+  display: block;
   opacity: 0.2;
   border-left: 3px;
   border-left-color: white;

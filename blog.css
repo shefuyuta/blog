@@ -165,7 +165,7 @@ border-bottom-style: solid;
 }
 
 .sideline{
-  position: relative;
+  position: absolute;
   display: block;
   opacity: 0.2;
   border-left: 3px;

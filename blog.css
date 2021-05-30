@@ -180,7 +180,7 @@ border-bottom-style: solid;
 .submenu > li{
   width: 10%;
   opacity: 0.8;
-  padding-left: 5px;
+  padding-left: 7px;
   z-index: 3;
 }
 
@@ -194,7 +194,7 @@ border-bottom-style: solid;
   border-left-style: solid;
 }
 .submenu.active{
-  min-height: 130px;
+  min-height: 125px;
 }
 
 /*-----container-----*/

@@ -165,13 +165,13 @@ border-bottom-style: solid;
 }
 
 .sideline{
-  position: absolute;
-  opacity: 0.5
+  position: relative;
+  opacity: 0.2;
   border-left: 3px;
   border-left-color: white;
   border-left-style: solid;
   width: 3px
-  hight: inherit;
+  hight: ;
 }
 
 .submenu > li{

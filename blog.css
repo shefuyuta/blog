@@ -193,6 +193,10 @@ border-bottom-style: solid;
   border-left-color: white;
   border-left-style: solid;
 }
+
+.submenu li: hover a{
+  opacity: 1;
+}
 .submenu.active{
   min-height: 125px;
 }

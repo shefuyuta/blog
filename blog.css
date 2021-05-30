@@ -110,7 +110,7 @@ border-top-width: 0;
 border-bottom-width: 2px;
 border-bottom-color: white;
 border-bottom-style: solid;
-opacity: 0.2;
+opacity: 0.3;
 }
 .menulist{
   /* position: relative; */
@@ -167,7 +167,7 @@ border-bottom-style: solid;
 .sideline{
   position: absolute;
   display: block;
-  opacity: 0.2;
+  opacity: 0.3;
   border-left: 3px;
   border-left-color: white;
   border-left-style: solid;

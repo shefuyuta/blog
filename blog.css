@@ -171,7 +171,8 @@ border-bottom-style: solid;
   border-left-color: white;
   border-left-style: solid;
   width: 3px
-  hight: inherit;
+  min-height: inherit;
+  height: inherit;
 }
 
 .submenu > li{

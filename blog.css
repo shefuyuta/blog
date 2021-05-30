@@ -180,9 +180,6 @@ border-bottom-style: solid;
 .submenu > li{
   width: 10%;
   opacity: 0.5;
-  border-left: 3px;
-  border-left-color: white;
-  border-left-style: solid;
   padding-left: 5px;
   z-index: 3;
 }
@@ -190,9 +187,14 @@ border-bottom-style: solid;
 .submenu li a {
   color: white;
 }
-.submenu li:hover{opacity: 1;}
+.submenu li:hover{
+  opacity: 1;
+  border-left: 3px;
+  border-left-color: white;
+  border-left-style: solid;
+}
 .submenu.active{
-  min-height: 180px;
+  min-height: auto;
 }
 
 /*-----container-----*/

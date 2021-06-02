@@ -235,10 +235,11 @@ border-bottom-style: solid;
 
 /* blog */
 .blogmenu{
-    left: 10%;
+    position: relative;
+    margin: 10% 0 10% 10%;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .blogtopics{

@@ -20,9 +20,9 @@ var parent = document.querySelectorAll("#menublog");
   });
 
 var blogtopics = document.querySelectorAll(".blogtopics");
-var topic = Array.prototype.slice.call(parent, 0);
+var topic = Array.prototype.slice.call(blogtopics, 0);
 
-node.forEach(function (element) {
+topic.forEach(function (element) {
   element.addEventListener(
     "mouseover",
     function () {

@@ -242,12 +242,13 @@ border-bottom-style: solid;
     flex-direction: column;
 }
 
-.blogmenu > li{
+.blogmenu li{
   font-size: 2.5vh;
   font-weight: 900;
   font-style: Arial Black;
   text-align: left;
   list-style-type: none;
+  width: 10%;
 }
 
 .blogtopics.active {

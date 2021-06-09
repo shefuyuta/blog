@@ -206,7 +206,7 @@ border-bottom-style: solid;
   background-color: rgb(230, 230, 230);
   top: 143px;
   width: 100%;
-  min-height: 80%;
+  min-height: 100%;
   z-index: 1;
 }
 .indexcontainer{

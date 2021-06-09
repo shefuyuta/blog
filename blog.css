@@ -204,8 +204,9 @@ border-bottom-style: solid;
 /*-----container-----*/
 .container{
   background-color: rgb(230, 230, 230);
-  top: 140px;
+  top: 135px;
   width: 100%;
+  min-height: 300px;
   z-index: 1;
 }
 .indexcontainer{

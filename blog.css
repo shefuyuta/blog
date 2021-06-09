@@ -251,7 +251,7 @@ border-bottom-style: solid;
   list-style-type: none;
 }
 
-.blogtopics.active {
+.blogtopics.active a {
   background-color: rgba(230, 230, 230, 0.5);
 }
 

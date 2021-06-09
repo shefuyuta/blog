@@ -203,7 +203,6 @@ border-bottom-style: solid;
 
 /*-----container-----*/
 .container{
-  background-color: rgb(230, 230, 230);
   top: 135px;
   width: 100%;
   min-height: 300px;
@@ -250,9 +249,15 @@ border-bottom-style: solid;
   font-style: Arial Black;
   text-align: left;
   list-style-type: none;
-
 }
 
+.blogtopics.active {
+  background-color: rgba(230, 230, 230, 0.5);
+}
+
+.blogtopic{
+  background-color: rgba(230, 230, 230, 0.5);
+}
 
 
 /*-----footer-----*/

@@ -19,7 +19,7 @@ var parent = document.querySelectorAll("#menublog");
     );
   });
 
-var blogtopics = document.querySelectorAll(".blogtopics")
+var blogtopics = document.querySelectorAll(".blogtopics");
 var topic = Array.prototype.slice.call(parent, 0);
 
 node.forEach(function (element) {

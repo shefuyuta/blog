@@ -213,7 +213,7 @@ border-bottom-style: solid;
     display: flex;
     background-color: rgb(160, 160, 160);
     width: 100%;
-    min-height: 500px;
+    min-height: 80%;
     justify-content: center;
     z-index: 1;
 }

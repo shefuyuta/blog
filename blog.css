@@ -240,10 +240,9 @@ border-bottom-style: solid;
     padding: 10% 0;
     display: flex;
     flex-direction: column;
-
 }
 
-.blogtopics{
+.blogmenu > li{
   font-size: 2.5vh;
   font-weight: 900;
   font-style: Arial Black;

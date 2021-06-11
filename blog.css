@@ -256,12 +256,12 @@ border-bottom-style: solid;
   font-style: Arial Black;
   list-style-type: none;
   transition: all 0.1s ease-out;
-  padding-left: 1px;
+  padding-left: 3px;
 }
 
 .blogtopics.active {
   background-color: rgba(230, 230, 230, 0.6);
-  border-left: 3px;
+  border-left: 5px;
   border-left-color: white;
   border-left-style: solid;
 }

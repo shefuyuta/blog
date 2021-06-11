@@ -21,7 +21,7 @@ var parent = document.querySelectorAll("#menublog");
 
   document.addEventListener('DOMContentLoaded', function(){
   // タブに対してクリックイベントを適用
-  const tabs = document.getElementsById('tab');
+  const tabs = document.getElementsByClassName('.blogmenu');
   for(let i = 0; i < tabs.length; i++) {
     tabs[i].addEventListener('click', tabSwitch);
   }

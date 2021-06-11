@@ -211,7 +211,7 @@ border-bottom-style: solid;
     z-index: 1;
 }
 
-.message{
+.message {
   width: 80%;
   margin: 120px 0 10px 0;
   display: flex;
@@ -224,21 +224,20 @@ border-bottom-style: solid;
   z-index: 1;
 }
 
-.message:not(:first-child){
+.message:not(:first-child) {
   paddingtop: 10%;
 }
 
 /* -----container----- */
-.container{
+.container {
   top: 135px;
   width: 100%;
   min-height: 300px;
-  z-index: 1;
-  display: flex;
+  z-index: 1
 }
 
 /* ------blog----- */
-.blogmenu{
+.blogmenu {
     position: relative;
     margin-left: 10%;
     padding: 10% 0;
@@ -246,7 +245,7 @@ border-bottom-style: solid;
     flex-direction: column;
 }
 
-.blogtopics{
+.blogtopics {
   font-size: 2.5vh;
   font-weight: 900;
   font-style: Arial Black;
@@ -260,7 +259,7 @@ border-bottom-style: solid;
   transition: all 0.2s ease-out;
 }
 
-.topics{
+.topics {
   background-color: rgba(230, 230, 230, 0.6);
   width: 80%;
   position: relative;

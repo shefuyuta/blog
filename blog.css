@@ -258,8 +258,9 @@ border-bottom-style: solid;
   transition: all 0.2s ease-out;
 }
 
-.blogtopics.active {
-  background-color: rgba(230, 230, 230, 0.6);
+.blogtopics.active {background-color: rgba(230, 230, 230, 0.6);}
+
+.blogtopics.active a{
   border-left-width: : 2px;
   border-left-color: white;
 }

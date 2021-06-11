@@ -31,12 +31,12 @@ topic.forEach(function (element) {
     },
     false
   );
-  element.addEventListener(
-    "click",
-    function () {
-      element.querySelector(".blogtopics").classList.remove("active");
-      element.querySelector(".topics").classList.remove("active");
-    },
-    false
+  // element.addEventListener(
+  //   "click",
+  //   function () {
+  //     element.querySelector(".blogtopics").classList.remove("active");
+  //     element.querySelector(".topics").classList.remove("active");
+  //   },
+  //   false
   );
 });

@@ -258,6 +258,11 @@ border-bottom-style: solid;
 
 .topics{
   background-color: rgba(230, 230, 230, 0.6);
+  width: 80%;
+  position: relative;
+  display:flex;
+  flex-direction: column;
+
 }
 
 

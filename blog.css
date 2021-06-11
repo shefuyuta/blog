@@ -272,10 +272,10 @@ border-bottom-style: solid;
   position: relative;
   display:flex;
   flex-direction: column;
-  list-style-type: none;
 }
-
-
+.topics ul{
+list-style-type: none;
+}
 
 /*-----footer-----*/
 footer {

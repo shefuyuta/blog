@@ -266,7 +266,7 @@ border-bottom-style: solid;
   display: none;
 }
 .topics.shown {
-  margin: 20% 0 0 0;
+  margin: 5% 0;
   display: flex;
   background-color: rgba(230, 230, 230, 0.6);
   width: 50%;

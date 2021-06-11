@@ -24,7 +24,7 @@ var topic = Array.prototype.slice.call(blogtopics, 0);
 
 topic.forEach(function (element) {
   element.addEventListener(
-    "mouseover",
+    "click",
     function () {
       element.querySelector(".blogtopics").classList.add("active");
       element.querySelector(".topics").classList.add("active");
@@ -32,7 +32,7 @@ topic.forEach(function (element) {
     false
   );
   element.addEventListener(
-    "mouseout",
+    "click",
     function () {
       element.querySelector(".blogtopics").classList.remove("active");
       element.querySelector(".topics").classList.remove("active");

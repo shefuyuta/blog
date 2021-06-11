@@ -234,7 +234,7 @@ border-bottom-style: solid;
   width: 100%;
   min-height: 300px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 /* ------blog----- */
@@ -268,11 +268,11 @@ border-bottom-style: solid;
 .topics.shown {
   display: flex;
   background-color: rgba(230, 230, 230, 0.6);
-  width: 50%;
+  width: 45%;
   position: relative;
   display:flex;
   flex-direction: column;
-  list-style: none;
+  list-style-type: none;
 }
 
 

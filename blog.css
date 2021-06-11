@@ -245,6 +245,7 @@ border-bottom-style: solid;
     display: flex;
     flex-direction: column;
     width: 15%;
+    cursor: pointer;
 }
 
 #tabs{padding: 0;}
@@ -256,6 +257,7 @@ border-bottom-style: solid;
   text-align: left;
   list-style-type: none;
   transition: all 0.2s ease-out;
+
 }
 
 .blogtopics.active {background-color: rgba(230, 230, 230, 0.6);}

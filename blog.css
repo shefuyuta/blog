@@ -260,8 +260,8 @@ border-bottom-style: solid;
 
 .blogtopics.active {
   background-color: rgba(230, 230, 230, 0.6);
-  border-left: 2px;
-  border-color: white;
+  border-left-width: : 2px;
+  border-left-color: white;
 }
 
 .topics {

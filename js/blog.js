@@ -19,24 +19,22 @@ var parent = document.querySelectorAll("#menublog");
     );
   });
 
-var blogtopics = document.querySelectorAll(".blogtopics");
-var topic = Array.prototype.slice.call(blogtopics, 0);
+  ocument.addEventListener('DOMContentLoaded', function(){
+  // タブに対してクリックイベントを適用
+  const tabs = document.getElementsById('tab');
+  for(let i = 0; i < tabs.length; i++) {
+    tabs[i].addEventListener('click', tabSwitch);
+  }
 
-topic.forEach(function (element) {
-  element.addEventListener(
-    "click",
-    function () {
-      element.querySelector(".blogtopics").classList.add("active");
-      element.querySelector(".topics").classList.add("active");
-    },
-    false
-  );
-  // element.addEventListener(
-  //   "click",
-  //   function () {
-  //     element.querySelector(".blogtopics").classList.remove("active");
-  //     element.querySelector(".topics").classList.remove("active");
-  //   },
-  //   false
-  );
+  // タブをクリックすると実行する関数
+  function tabSwitch(){
+    // タブのclassの値を変更
+    document.getElementsByClassName('active')[0].classList.remove('active');
+    this.classList.add('active');
+    // コンテンツのclassの値を変更
+    document.getElementsByClassName('shown')[0].classList.remove('shown');
+    const arrayTabs = Array.prototype.slice.call(tabs);
+    const index = arrayTabs.indexOf(this);
+    document.getElementsByClassName('panel')[index].classList.add('shown');
+  };
 });

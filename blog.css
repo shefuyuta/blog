@@ -263,9 +263,10 @@ border-bottom-style: solid;
 }
 
 .topics {
-  overflow: hidden;
+  display: none;
 }
 .topics.active {
+  display: flex;
   background-color: rgba(230, 230, 230, 0.6);
   width: 50%;
   position: relative;

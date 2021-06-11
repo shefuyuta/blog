@@ -285,8 +285,8 @@ list-style-type: none;
 .topics li{
 
   border-bottom: 2px;
-  border-style: solid;
-  border-color: black;
+  border-bottom-style: solid;
+  border-bottom-color: black;
   margin-bottom: 10%;
 }
 
@@ -294,7 +294,7 @@ list-style-type: none;
   text-decoration: none;
   color: black;
   font-family: Arial black;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 /*-----footer-----*/

@@ -201,14 +201,7 @@ border-bottom-style: solid;
   min-height: 125px;
 }
 
-/*-----container-----*/
-.container{
-  top: 135px;
-  width: 100%;
-  min-height: 300px;
-  z-index: 1;
-  display: flex;
-}
+/*-----indexcontainer-----*/
 .indexcontainer{
     display: flex;
     background-color: rgb(160, 160, 160);
@@ -235,7 +228,16 @@ border-bottom-style: solid;
   paddingtop: 10%;
 }
 
-/* blog */
+/* -----container----- */
+.container{
+  top: 135px;
+  width: 100%;
+  min-height: 300px;
+  z-index: 1;
+  display: flex;
+}
+
+/* ------blog----- */
 .blogmenu{
     position: relative;
     margin-left: 10%;

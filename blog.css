@@ -230,7 +230,8 @@ border-bottom-style: solid;
   z-index: 1;
 }
 
-.message a{
+.message:not(:first-child){
+  paddingtop: 10%;
 }
 
 /* blog */

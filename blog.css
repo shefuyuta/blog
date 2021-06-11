@@ -234,6 +234,7 @@ border-bottom-style: solid;
   width: 100%;
   min-height: 300px;
   z-index: 1
+  display: flex;
 }
 
 /* ------blog----- */
@@ -251,7 +252,6 @@ border-bottom-style: solid;
   font-style: Arial Black;
   text-align: left;
   list-style-type: none;
-  width: 20%;
 }
 
 .blogtopics.active {
@@ -260,8 +260,9 @@ border-bottom-style: solid;
 }
 
 .topics {
+
   background-color: rgba(230, 230, 230, 0.6);
-  width: 80%;
+  width: 50%;
   position: relative;
   display:flex;
   flex-direction: column;

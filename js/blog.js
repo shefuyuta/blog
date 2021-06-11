@@ -19,7 +19,7 @@ var parent = document.querySelectorAll("#menublog");
     );
   });
 
-  ocument.addEventListener('DOMContentLoaded', function(){
+  document.addEventListener('DOMContentLoaded', function(){
   // タブに対してクリックイベントを適用
   const tabs = document.getElementsById('tab');
   for(let i = 0; i < tabs.length; i++) {

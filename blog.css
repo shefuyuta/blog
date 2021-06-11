@@ -283,15 +283,18 @@ list-style-type: none;
 }
 
 .topics li{
-  border-bottom: 1px;
+
+  border-bottom: 2px;
+  border-style: solid;
   border-color: black;
-  padding-bottom: 20px;
+  margin-bottom: 10%;
 }
 
 .topics a {
   text-decoration: none;
   color: black;
-  font-weight: 500;
+  font-family: Arial black;
+  font-weight: 700;
 }
 
 /*-----footer-----*/

@@ -21,7 +21,7 @@ var parent = document.querySelectorAll("#menublog");
 
   document.addEventListener('DOMContentLoaded', function(){
   // タブに対してクリックイベントを適用
-  const tabs = document.getElementsByClassName('.blogmenu');
+  const tabs = document.getElementsByClassName('.blogtopics');
   for(let i = 0; i < tabs.length; i++) {
     tabs[i].addEventListener('click', tabSwitch);
   }
@@ -35,6 +35,6 @@ var parent = document.querySelectorAll("#menublog");
     document.getElementsByClassName('shown')[0].classList.remove('shown');
     const arrayTabs = Array.prototype.slice.call(tabs);
     const index = arrayTabs.indexOf(this);
-    document.getElementsByClassName('panel')[index].classList.add('shown');
+    document.getElementsByClassName('topics')[index].classList.add('shown');
   };
 });

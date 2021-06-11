@@ -276,6 +276,7 @@ border-bottom-style: solid;
 }
 .topics ul{
 list-style-type: none;
+font-weight: 400;
 }
 
 /*-----footer-----*/

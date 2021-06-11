@@ -27,7 +27,7 @@ topic.forEach(function (element) {
     "mouseover",
     function () {
       element.querySelector(".blogtopics").classList.add("active");
-      // element.querySelector(".topics").classList.add("active");
+      element.querySelector(".topics").classList.add("active");
     },
     false
   );
@@ -35,7 +35,7 @@ topic.forEach(function (element) {
     "mouseout",
     function () {
       element.querySelector(".blogtopics").classList.remove("active");
-      // element.querySelector(".topics").classList.remove("active");
+      element.querySelector(".topics").classList.remove("active");
     },
     false
   );

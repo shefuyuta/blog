@@ -280,7 +280,12 @@ border-bottom-style: solid;
 }
 .topics ul{
 list-style-type: none;
-font-weight: 400;
+}
+
+.topics li{
+  font-weight: 400;
+  border-bottom: 1px;
+  border-color: black;
 }
 
 /*-----footer-----*/

@@ -247,6 +247,7 @@ border-bottom-style: solid;
     width: 20%;
 }
 
+#tabs{padding: 0;}
 
 .blogtopics {
   font-size: 2.5vh;

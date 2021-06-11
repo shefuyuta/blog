@@ -265,7 +265,7 @@ border-bottom-style: solid;
 .topics {
   display: none;
 }
-.topics.active {
+.topics.shown {
   display: flex;
   background-color: rgba(230, 230, 230, 0.6);
   width: 50%;

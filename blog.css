@@ -207,6 +207,7 @@ border-bottom-style: solid;
   width: 100%;
   min-height: 300px;
   z-index: 1;
+  display: flex;
 }
 .indexcontainer{
     display: flex;

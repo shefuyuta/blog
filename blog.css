@@ -283,10 +283,6 @@ list-style-type: none;
 }
 
 .topics li{
-
-  border-bottom: 2px;
-  border-bottom-style: solid;
-  border-bottom-color: black;
   margin-bottom: 10%;
 }
 
@@ -294,7 +290,10 @@ list-style-type: none;
   text-decoration: none;
   color: black;
   font-family: Arial black;
-  font-weight: 500;
+  font-weight: bold;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
 }
 
 /*-----footer-----*/

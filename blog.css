@@ -218,7 +218,7 @@ border-bottom-style: solid;
   justify-content: top;
   align-items: left;
   flex-direction: column;
-  font-size: 2.5vh;
+  font-size: 2vw;
   color: white;
   z-index: 1;
   z-index: 1;
@@ -251,7 +251,7 @@ border-bottom-style: solid;
 
 .blogtopics {
   cursor: pointer;
-  font-size: 2.5vh;
+  font-size: 2vw;
   font-weight: 900;
   font-style: Arial Black;
   list-style-type: none;

@@ -270,7 +270,7 @@ border-bottom-style: solid;
   display: none;
 }
 .topics.shown {
-  margin: 8% 0;
+  margin: 8% 0 8% 1%;
   display: flex;
   background-color: rgba(230, 230, 230, 0.6);
   width: 50%;

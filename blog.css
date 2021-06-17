@@ -12,12 +12,10 @@ body{
   margin: 0;
   width: 100%;
   min-height: 100%;
-}
-.indexbody{
   background-color: rgb(160, 160, 160);
   height: inherit;
 }
-.indexbackground{
+.background{
   width: 100%;
   height: inherit;
   position: absolute;

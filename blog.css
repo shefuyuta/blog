@@ -48,6 +48,7 @@ header {
   margin: 0;
   color: white;
   font-size: 3.5em;
+  font-family: "Cookie";
 }
 /*背景を文字でくりぬく*/
 /*  -webkit-text-fill-color: transparent;
@@ -298,6 +299,12 @@ list-style-type: none;
   position: relative;
   z-index: 1;
 }
+.blogcontent a{
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Arial Black;
+  color: black;
+}
 
 .index {
   border-width: 2px;
@@ -305,15 +312,8 @@ list-style-type: none;
   border-style: solid;
   display: flex;
   flex-direction: column;
-
 }
 
-.index a{
-  list-style-type: none;
-  text-decoration: none;
-  font-family: Arial Black;
-  color: black;
-}
 
 /*-----footer-----*/
 footer {

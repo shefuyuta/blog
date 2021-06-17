@@ -313,6 +313,9 @@ list-style-type: none;
   border-width: 2px;
   border-color: black;
   border-style: solid;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .index a{

@@ -299,13 +299,14 @@ list-style-type: none;
 .index {
   border-width: 2px;
   border-color: black;
-  border-style: solid;  
+  border-style: solid;
 }
 
 .blogcontent {
   margin: 8% 0;
   background-color: rgba(230, 230, 230, 0.55);
   width: 50%;
+  height: auto;
 }
 
 

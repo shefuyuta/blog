@@ -10,7 +10,6 @@ html {
 /*-----header-----*/
 body{
   margin: 0;
-  height: 100%;
   width: 100%;
 }
 .indexbody{background-color: rgb(160, 160, 160);}
@@ -310,6 +309,7 @@ list-style-type: none;
 
 .blogcontent {
   margin: 8% 0;
+  padding: 2% 5%;
   background-color: rgba(230, 230, 230, 0.55);
   width: 50%;
   height: auto;
@@ -321,8 +321,6 @@ list-style-type: none;
 footer {
   background-color: rgb(160, 160, 160);
   width: 100%;
-  position: absolute;
-  bottom: 0;
 }
 
 .indexfooter{background-color: transparent;}

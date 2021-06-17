@@ -11,6 +11,7 @@ body{
   margin: 0;
   width: 100%;
   min-height: 100%;
+  height:auto;
   background-color: rgb(160, 160, 160);
   height: inherit;
 }

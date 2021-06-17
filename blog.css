@@ -320,6 +320,7 @@ list-style-type: none;
 footer {
   background-color: rgb(160, 160, 160);
   width: 100%;
+  position: absolute;
 }
 
 .indexfooter{background-color: transparent;}

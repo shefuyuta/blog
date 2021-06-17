@@ -13,7 +13,10 @@ body{
   width: 100%;
   min-height: 100%;
 }
-.indexbody{background-color: rgb(160, 160, 160);}
+.indexbody{
+  background-color: rgb(160, 160, 160);
+  height: inherit;
+}
 .indexbackground{
   width: 100%;
   height: inherit;
@@ -23,6 +26,7 @@ body{
   background-repeat: repeat-x;
   opacity: 0.45;
   z-index: 0;
+
 
 }
 

@@ -297,6 +297,18 @@ list-style-type: none;
 }
 
 /* -----blog content----- */
+
+
+.blogcontent {
+  margin: 8% 0;
+  padding: 2% 5%;
+  background-color: rgba(230, 230, 230, 0.55);
+  width: 50%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
 .index {
   border-width: 2px;
   border-color: black;
@@ -309,16 +321,6 @@ list-style-type: none;
   font-family: Arial Black;
   color: black;
 }
-
-.blogcontent {
-  margin: 8% 0;
-  padding: 2% 5%;
-  background-color: rgba(230, 230, 230, 0.55);
-  width: 50%;
-  height: auto;
-}
-
-
 
 /*-----footer-----*/
 footer {

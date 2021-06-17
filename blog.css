@@ -295,6 +295,15 @@ list-style-type: none;
   border-bottom-color: black;
 }
 
+/* -----blog content----- */
+.blogcontent {
+  margin: 8% 0;
+  background-color: rgba(230, 230, 230, 0.55);
+  width: 50%;
+}
+
+
+
 /*-----footer-----*/
 footer {
   background-color: rgb(160, 160, 160);

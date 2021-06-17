@@ -302,6 +302,12 @@ list-style-type: none;
   border-style: solid;
 }
 
+.index a{
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Arial Black;
+}
+
 .blogcontent {
   margin: 8% 0;
   background-color: rgba(230, 230, 230, 0.55);

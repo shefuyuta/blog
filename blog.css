@@ -2,7 +2,7 @@ font-family: 'Cookie', cursive;
 font-family: 'Noto Sans JP', sans-serif;
 
 html {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
 }
 
@@ -10,13 +10,13 @@ html {
 body{
   margin: 0;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   background-color: rgb(160, 160, 160);
   height: inherit;
 }
 .background{
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   position: sticky;
   background-image: url(pictures/PSX_20210523_234116.jpg);
   background-size: cover;

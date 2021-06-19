@@ -19,7 +19,6 @@ body{
   position: sticky;
   background-image: url(pictures/PSX_20210523_234116.jpg);
   background-size: cover;
-  background-repeat: repeat-y;
   opacity: 0.45;
   z-index: 0;
 }

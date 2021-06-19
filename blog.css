@@ -199,7 +199,7 @@ border-bottom-style: solid;
 
 .message {
   width: 80%;
-  margin: 120px 0 10px 0;
+  margin: 120px 0 120px 0;
   display: flex;
   justify-content: top;
   align-items: left;
@@ -312,6 +312,28 @@ list-style-type: none;
   flex-direction: column;
 }
 
+.bloglist {
+  overflow: hidden;
+  position: absolute;
+  padding: 3px 0 0 2px;
+  min-height: 0;
+  left: 5%;
+  height: 0;
+  z-index: 3;
+  list-style-type: none;
+  transition: min-height 0.4s;
+}
+
+.bloglist.active {
+  min-height: auto;
+}
+
+.bloglist ul {list-style-type: none;}
+.bloglist a {
+  color: black;
+  font-family: Arial Black;
+  text-decoration: none;
+}
 
 /*-----footer-----*/
 footer {

@@ -2,7 +2,7 @@ font-family: 'Cookie', cursive;
 font-family: 'Noto Sans JP', sans-serif;
 
 html {
-  min-height: 100%;
+  height: 100%;
   width: 100%;
 }
 /*-----header-----*/

@@ -38,3 +38,23 @@ var parent = document.querySelectorAll("#menublog");
     document.getElementsByClassName('topics')[index].classList.add('shown');
   };
 });
+
+document.addEventListener('DOMContentLoaded', function(){
+// タブに対してクリックイベントを適用
+const tabs = document.getElementsByClassName('blogtopics');
+for(let i = 0; i < tabs.length; i++) {
+  tabs[i].addEventListener('click', tabSwitch);
+}
+
+// タブをクリックすると実行する関数
+function tabSwitch(){
+  // タブのclassの値を変更
+  document.getElementsByClassName('active')[0].classList.remove('active');
+  this.classList.add('active');
+  // コンテンツのclassの値を変更
+  document.getElementsByClassName('active')[0].classList.remove('active');
+  const arrayTabs = Array.prototype.slice.call(tabs);
+  const index = arrayTabs.indexOf(this);
+  document.getElementsByClassName('bloglist')[index].classList.add('active');
+};
+});

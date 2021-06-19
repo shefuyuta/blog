@@ -323,7 +323,6 @@ list-style-type: none;
   list-style-type: none;
   transition: min-height 0.4s;
 }
-
 .bloglist.active {
   min-height: auto;
 }

@@ -326,7 +326,6 @@ list-style-type: none;
 .bloglist.active {
   min-height: auto;
 }
-
 .bloglist ul {list-style-type: none;}
 .bloglist a {
   color: black;

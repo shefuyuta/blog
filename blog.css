@@ -287,6 +287,10 @@ list-style-type: none;
 
 /* -----blog content----- */
 
+.blogtitle {
+  font-family: Arial Black;
+  color: black;
+}
 
 .blogcontent {
   margin: 8% 0;

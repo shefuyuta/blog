@@ -49,12 +49,12 @@ for(let i = 0; i < tabs.length; i++) {
 // タブをクリックすると実行する関数
 function tabSwitch(){
   // タブのclassの値を変更
-  document.getElementsByClassName('active')[0].classList.remove('active');
+  document.getElementsByClassName('shown')[0].classList.remove('shown');
   this.classList.add('active');
   // コンテンツのclassの値を変更
-  document.getElementsByClassName('active')[0].classList.remove('active');
+  document.getElementsByClassName('shown')[0].classList.remove('shown');
   const arrayTabs = Array.prototype.slice.call(tabs);
   const index = arrayTabs.indexOf(this);
-  document.getElementsByClassName('bloglist')[index].classList.add('active');
+  document.getElementsByClassName('bloglist')[index].classList.add('shown');
 };
 });

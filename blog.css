@@ -15,6 +15,7 @@ body{
 .background{
   width: 100%;
   min-height: 100%;
+  height: inherit;
   position: absolute;
   background-image: url(pictures/PSX_20210523_234116.jpg);
   background-size: cover;

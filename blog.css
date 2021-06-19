@@ -13,7 +13,6 @@ body{
   background-color: rgb(160, 160, 160);
   display: flex;
 }
-
 .background{
   width: 100%;
   min-height: 100%;

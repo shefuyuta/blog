@@ -11,19 +11,20 @@ body{
   margin: 0;
   width: 100%;
   height: auto;
-  background-color: rgb(160, 160, 160);
+  background-color: rgba(160, 160, 160, 0.45);
+  background-image: url(pictures/PSX_20210523_234116.jpg);
   height: inherit;
 }
-.background{
+/* .background{
   width: 100%;
   height: inherit;
   position: absolute;
-  background-image: url(pictures/PSX_20210523_234116.jpg);
+
   background-size: cover;
   background-repeat: repeat-y;
   opacity: 0.45;
   z-index: 0;
-}
+} */
 
 header {
   background-color: rgb(160, 160, 160);

@@ -11,13 +11,13 @@ body{
   width: 100%;
   min-height: 100%;
   background-color: rgb(160, 160, 160);
+  display: inline-block;
 }
 .background{
   width: 100%;
   min-height: 100%;
   height: inherit !important;
   position: absolute;
-  display: flex;
   background-image: url(pictures/PSX_20210523_234116.jpg);
   background-size: cover;
   background-repeat: repeat-y;

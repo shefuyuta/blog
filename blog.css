@@ -326,6 +326,7 @@ list-style-type: none;
 .bloglist.shownlist {
   height: auto;
   display: block;
+  font-weight: 100;
 }
 .bloglist ul {list-style-type: none;}
 .bloglist a {

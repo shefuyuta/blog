@@ -351,7 +351,13 @@ list-style-type: none;
   font-weight: 100;
   font-size: 1vw;
 }
-.bloglist li:hover{border-left-color: black;}
+.bloglist li:hover{
+  border-left-color: black;
+  border-left: 5px;
+  border-left-color: white;
+  border-left-style: solid;
+  margin-left: -20px;
+}
 
 
 /*-----footer-----*/

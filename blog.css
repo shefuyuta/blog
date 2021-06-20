@@ -341,7 +341,10 @@ list-style-type: none;
 .bloglist.shownlist {
   height: auto;
 }
-.bloglist ul {list-style-type: none;}
+.bloglist ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
 .bloglist a {
   color: black;
   font-family: Arial;

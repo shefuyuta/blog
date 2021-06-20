@@ -335,7 +335,7 @@ list-style-type: none;
   height: 0;
   z-index: 3;
   list-style-type: none;
-  transition: min-height 0.4s;
+  transition: min-height 0.2s;
 }
 .bloglist.shownlist {
   height: auto;

@@ -340,6 +340,7 @@ list-style-type: none;
 }
 .bloglist ul {
   list-style-type: none;
+  padding: 0;
 }
 .bloglist a {
   color: black;

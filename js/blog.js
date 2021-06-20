@@ -49,7 +49,7 @@ for(let i = 0; i < tabs.length; i++) {
 // タブをクリックすると実行する関数
 function tabSwitch(){
   // タブのclassの値を変更
-  document.getElementsByClassName('shown')[0].classList.remove('shown');
+  document.getElementsByClassName('active')[0].classList.remove('active');
   this.classList.add('active');
   // コンテンツのclassの値を変更
   document.getElementsByClassName('shown')[0].classList.remove('shown');

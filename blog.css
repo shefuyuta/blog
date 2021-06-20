@@ -350,7 +350,8 @@ list-style-type: none;
   font-size: 1vw;
 }
 .bloglist li:hover{
-font-weight: 200;
+  font-weight: 200;
+  text-decoration: underline;
 }
 /*-----footer-----*/
 footer {

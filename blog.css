@@ -342,7 +342,7 @@ list-style-type: none;
   transition: min-height 0.4s;
 }
 .bloglist.shownlist {
-  height: 30px;
+  height: auto;
 }
 .bloglist ul {list-style-type: none;}
 .bloglist a {

@@ -342,6 +342,7 @@ list-style-type: none;
   list-style-type: none;
   padding: 0;
 }
+
 .bloglist a {
   color: black;
   font-family: Arial;
@@ -353,6 +354,8 @@ list-style-type: none;
   border-left-color: black;
   border-left: 5px;
   border-left-style: solid;
+  margin-left: -3px;
+  padding-left: 3px;
 }
 /*-----footer-----*/
 footer {

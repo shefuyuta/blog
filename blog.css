@@ -334,6 +334,7 @@ list-style-type: none;
   position: absolute;
   padding: 3px 0 0 2px;
   min-height: 0;
+  display: block;
   left: 5%;
   height: 0;
   z-index: 3;
@@ -341,15 +342,14 @@ list-style-type: none;
   transition: min-height 0.4s;
 }
 .bloglist.shownlist {
-  height: auto;
-  display: block;
-  font-weight: 100;
+  height: 30px;
 }
 .bloglist ul {list-style-type: none;}
 .bloglist a {
   color: black;
   font-family: Arial Black;
   text-decoration: none;
+  font-weight: 200;
 }
 
 /*-----footer-----*/

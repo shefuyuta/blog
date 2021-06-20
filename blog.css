@@ -350,11 +350,7 @@ list-style-type: none;
   font-size: 1vw;
 }
 .bloglist li:hover{
-  border-left-color: black;
-  border-left: 5px;
-  border-left-style: solid;
-  margin-left: -18px;
-  padding-left: 18px;
+font-weight: 200;
 }
 /*-----footer-----*/
 footer {

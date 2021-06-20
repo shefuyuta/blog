@@ -335,24 +335,12 @@ list-style-type: none;
 
 /*-----footer-----*/
 footer {
-  background-color: rgb(160, 160, 160);
+  background-color:transparent;
   width: 100%;
   position: absolute;
+
 }
 
-.indexfooter{background-color: transparent;}
-
-.footerbackground {
-  z-index: 0;
-  position: absolute;
-  bottom: 0;
-  opacity: 0.45;
-  background-image: url(pictures/PSX_20201005_234953.jpg);
-  background-position: 0% 68%;
-  background-size: cover;
-  width: 100%;
-  height: 108px;
-}
 .links {
   padding: 25px 0 48px 0;
   display: flex;

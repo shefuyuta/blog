@@ -41,9 +41,9 @@ var parent = document.querySelectorAll("#menublog");
 
 document.addEventListener('DOMContentLoaded', function(){
 // タブに対してクリックイベントを適用
-const tabs = document.getElementsByClassName('changetopics');
-for(let i = 0; i < tabs.length; i++) {
-  tabs[i].addEventListener('click', tabSwitch);
+const list = document.getElementsByClassName('changetopics');
+for(let i = 0; i < list.length; i++) {
+  list[i].addEventListener('click', tabSwitch);
 }
 
 // タブをクリックすると実行する関数
@@ -53,7 +53,7 @@ function tabSwitch(){
   this.classList.add('active');
   // コンテンツのclassの値を変更
   document.getElementsByClassName('shownlist')[0].classList.remove('shownlist');
-  const arrayTabs = Array.prototype.slice.call(tabs);
+  const arrayTabs = Array.prototype.slice.call(list);
   const index = arrayTabs.indexOf(this);
   document.getElementsByClassName('bloglist')[index].classList.add('shownlist');
 };

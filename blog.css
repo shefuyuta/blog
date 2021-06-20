@@ -349,7 +349,7 @@ list-style-type: none;
   font-weight: 100;
   font-size: 1vw;
 }
-.bloglist:hover{border-left-color: black;}
+.bloglist li:hover{border-left-color: black;}
 
 
 /*-----footer-----*/

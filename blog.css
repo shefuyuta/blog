@@ -330,7 +330,7 @@ list-style-type: none;
 
 .bloglist {
   overflow: hidden;
-  position: absolute;
+  position: relative;
   padding: 3px 0 0 2px;
   min-height: 0;
   display: block;

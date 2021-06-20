@@ -328,10 +328,8 @@ list-style-type: none;
 .bloglist {
   overflow: hidden;
   position: relative;
-  padding: 3px 0 0 2px;
   min-height: 0;
   display: block;
-  left: 5%;
   height: 0;
   z-index: 3;
   list-style-type: none;
@@ -341,8 +339,8 @@ list-style-type: none;
   height: auto;
 }
 .bloglist ul {
+  position:
   list-style-type: none;
-  padding-left: 10px;
 }
 .bloglist a {
   color: black;

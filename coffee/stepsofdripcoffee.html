@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>shefuyuta blog</title>
+  <link rel="icon" href="">
+  <link rel="stylesheet" href="../blog.css">
+  <link rel="stylesheet" href="../hover.css">
+  <link rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+  integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+  crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+</head>
+
+<body>
+  <div class="background"></div>
+  <header>
+    <section class="title">
+      <h1>shefuyuta blog</h1>
+    </section>
+    <nav class="menu">
+      <section class="menuunderline">
+      </section>
+  <ul class="menulist">
+      <li class="move"><a class="hvr-bob" href="../index.html">Home</a></li>
+      <li class="currentpage"><a class="hvr-bob" href="../blog.html">Blog</a>
+    </li>
+      <li class="move"><a href="../about.html" class="hvr-bob">About</a></li>
+      <li class="move"><a href="../contact.html" class="hvr-bob">Contact</a></li>
+    </ul>
+    </nav>
+  </header>
+  <div class="container">
+  <div class="blogmenu">
+  <ul id="tabs">
+    <li id="cookingtab" class="changetopics"><a>Cooking</a>
+     <div class="bloglist"><ul>
+      <li><a href="">1</a></li>
+     </ul></div>
+    </li>
+    <li id="coffeetab" class="changetopics active"><a>Coffee</a>
+      <div class="bloglist shownlist"><ul>
+      <li><a href="fiveelements">ドリップコーヒーの味を決める5つの要素</a></li>
+      <li><a>ドリップコーヒーの淹れ方</a></li>
+      </ul></div>
+    </li>
+    <li id="programmingtab" class="changetopics"><a>Programming</a>
+      <div class="bloglist"><ul>
+      <li><a href="">1</a></li>
+      </ul></div>
+    </li>
+    <li id="lifetab" class="changetopics"><a>Life</a>
+      <div class="bloglist"><ul>
+      <li><a href="">1</a></li>
+      </ul></div>
+    </li>
+    <li id="businesstab" class="changetopics"><a>Business</a>
+      <div class="bloglist"><ul>
+      <li><a href="">1</a></li>
+      </ul></div>
+    </li>
+  </ul>
+</div>
+
+<div class="blogcontent">
+<h1 class="blogtitle">ドリップコーヒーの淹れ方</h1>
+
+<p>こんにちは。</p>
+<p> </p>
+<p>前回は<strong>ドリップコーヒー</strong>を淹れる際に</p>
+<p>気を付けた方がよいこと<strong>5選</strong>(と言いつつ6こ)を</p>
+<p>紹介しましたが、</p>
+<p> </p>
+<p>そもそも<strong>淹れる手順</strong>は？と思ったので</p>
+<p>今回は<strong>どんなステップ</strong>でコーヒードリップをしていくのかを</p>
+<p>お話します。</p>
+<p> </p>
+<div class="index">
+<a href="#1">1. 必要なものを準備する</a>
+<a href="#2">2. コーヒー豆を挽く</a>
+<a href="#3">3. 挽いたコーヒー豆をセットする</a>
+<a href="#4">4. コーヒードリップ第1湯</a>
+<a href="#5">5. コーヒードリップ第2湯</a>
+<a href="#6">6. コーヒードリップ第3湯</a>
+</div>
+<p> </p>
+<h3 id="1">1. 必要なものを準備する</h3>
+<p>まあ当然ながら、最初に必要な<strong>道具</strong>をそろえておく必要がありますね。</p>
+<p>ざっと必要なものはこんな感じです。</p>
+<p> </p>
+<ul>
+<li>お好きなコーヒー豆</li>
+<li>コーヒーミル(挽いてある豆を購入する場合は不要)</li>
+<li>ドリッパー</li>
+<li>ペーパーフィルター(不要なドリッパーもあります)</li>
+<li>ドリップポッド</li>
+<li>メジャースプーン</li>
+<li>スケール(ストップウォッチ付きの物が便利です)</li>
+<li>お気に入りのコーヒーカップ(気分を上げるためには大事です)</li>
+<li>コーヒーサーバー(一人用の場合はカップに直接落としてもいいですね)</li>
+</ul>
+<p> </p>
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">// <![CDATA[
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20210203","msmaflink");
+msmaflink({"n":"HARIO(ハリオ) V60ドリップスケール ブラック VSTN-2000B","b":"HARIO(ハリオ)","t":"VSTN-2000B","d":"https:\/\/m.media-amazon.com","c_p":"\/images\/I","p":["\/31d29Yp2zhL._SL500_.jpg","\/31FQRS3XS3L._SL500_.jpg","\/31ZzNVCBZuL._SL500_.jpg","\/41URN2MTi+L._SL500_.jpg","\/419GCqR6VzL._SL500_.jpg"],"u":{"u":"https:\/\/www.amazon.co.jp\/dp\/B08VRSZVN4","t":"amazon","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"Amazonで見る","u_bc":"#f79256","u_url":"https:\/\/www.amazon.co.jp\/dp\/B08VRSZVN4","a_id":2644022,"p_id":170,"pl_id":27060,"pc_id":185,"s_n":"amazon","u_so":1},{"id":2,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/search.rakuten.co.jp\/search\/mall\/HARIO(%E3%83%8F%E3%83%AA%E3%82%AA)%20V60%E3%83%89%E3%83%AA%E3%83%83%E3%83%97%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%AB%20%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%20VSTN-2000B\/","a_id":2644020,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":2}],"eid":"tJGN1","s":"s"});
+// ]]></script>
+<div id="msmaflink-tJGN1">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+<p> </p>
+<h3 id="2">2. コーヒー豆を挽く</h3>
+<p>コーヒー豆は<strong>挽いてあるもの</strong>を買ってもいいのですが、</p>
+<p>やっぱり自分で挽いてより<strong>新鮮な香り</strong>を楽しみたいですよね。</p>
+<p> </p>
+<p><strong>手動ミル</strong>で挽いてるときに上がってくるコーヒーの香りは本当に堪りません。</p>
+<p>一番いい香りがする瞬間です。</p>
+<p> </p>
+<p>前回の記事↓でお話した通り、</p>
+<p>コーヒーの挽き具合は味を左右する<strong>重要な要素</strong>です。</p>
+<p>無難に中挽き(1mm角くらい)で挽けば問題ないでしょう。</p>
+<p><iframe class="embed-card embed-blogcard" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;" title="ドリップコーヒーの味を左右する5つの要素 - shefuの備忘録" src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fshefuyuta.hatenablog.com%2Fentry%2F2021%2F06%2F17%2F160831" frameborder="0" scrolling="no"></iframe><cite class="hatena-citation"><a href="https://shefuyuta.hatenablog.com/entry/2021/06/17/160831">shefuyuta.hatenablog.com</a></cite></p>
+<p> </p>
+<p>早く挽きすぎると<strong>摩擦熱</strong>で香りが飛んでしまうというお話も聞いたことがありますが、</p>
+<p>自分は少々せっかちなので早く回してしまっています笑</p>
+<p>ゆっくり回すと15gの豆を挽くのに3分くらいはかかってしまうんですよ！</p>
+<p> </p>
+<p>辛抱強いそこのあなたはちゃんと優しく挽いてあげてください笑</p>
+<p>自分も<strong>高級</strong>な豆を挽く際はちゃんとゆっくりやっています...。本当ですよ。</p>
+<p> </p>
+<p>ちなみに私の言う高級な豆の基準は<strong>200g</strong>で<strong>1000円</strong>超えるかどうかです。</p>
+<p>雑ですみません笑</p>
+<p><strong>100g</strong>で既に<strong>1000円</strong>超えてしまう豆もざらにあります。恐ろしや。</p>
+<p> </p>
+<p>でも<strong>ワイン</strong>みたいに</p>
+<p>買ったら次の日から<strong>毎日おにぎり生活</strong>を余儀なくされるような</p>
+<p>とんでもない金額にはならないので、</p>
+<p>たまには高級なコーヒー豆を買って<strong>恐る恐る</strong>淹れてみるのも</p>
+<p>ありではないでしょうか。</p>
+<p> </p>
+<p>前回ちらっと紹介した</p>
+<p><strong>BLUE BOTTLE COFFEE</strong>の<strong>ベラ・ドノヴァン</strong>は(というかどの豆も)</p>
+<p><strong>200g</strong>で<strong>1500円</strong>くらいします。</p>
+<p>でもすごくおいしいですよ。</p>
+<p> </p>
+<p>...話を戻しましょう。 </p>
+<p><strong>コーヒー豆を挽く</strong>話でしたね。</p>
+<p> </p>
+<p>自分がいつも見ているとある<strong>Youtuber</strong>のように</p>
+<p>いつの日かコーヒー豆を挽く話だけで1記事いけちゃうような</p>
+<p>そんな<strong>めしあが～れ</strong>な感じの知見者にいつかなりたいものです。</p>
+<p> </p>
+<h3 id="3">3. 挽いたコーヒー豆をセットする</h3>
+<p><strong>コーヒーサーバー</strong>または<strong>カップ</strong>に<strong>ドリッパー(とペーパーフィルター)</strong>をセットし、</p>
+<p>コーヒーフィルターに直接、沸かしたお湯を満遍なくかけます。(<strong>リンス</strong>といいます)</p>
+<p> </p>
+<p>お湯がある程度落ちきったら溜まったお湯を捨て、(自分は水で薄めてがぶ飲みします笑 おいしくはないです。)</p>
+<p>それから<strong>ドリッパー</strong>に<strong>コーヒー豆</strong>を入れます。</p>
+<p> </p>
+<p>沸かしたお湯を一旦カップ(またはコーヒーサーバー)に直接入れてから、</p>
+<p><strong>ドリップポッド</strong>に移します。</p>
+<p>温度の調整と、カップ(以下同文)を<strong>温める</strong>のが目的です。</p>
+<p> </p>
+<p>この後、お湯を<strong>3回</strong>に分けて注ぎます。</p>
+<p>お湯の量はコーヒー豆の<strong>12倍から15倍</strong>の量(重さ)を基準にしてください。</p>
+<p>あとは好みだったりコーヒー豆に合わせて調整が必要です。</p>
+<p> </p>
+<p>また、コーヒーが落ちきるまでの時間は</p>
+<p><strong>3分</strong>を目標とします。</p>
+<p>注ぎ終わるまでの時間はだいたい<strong>2分半</strong>になるでしょう。</p>
+<p>早すぎると<strong>薄い</strong>コーヒーになってしまいますし、</p>
+<p>遅すぎてもやたらと<strong>渋い</strong>コーヒーになってしまうのでいけません。</p>
+<p> </p>
+<h3 id="4">4. コーヒードリップ第1湯</h3>
+<p><strong>第1湯??</strong>ってなった方、ご安心ください、正式に1湯2湯なんて言い方をするかは知りません笑</p>
+<p>聞いたことあるかたもいるかもしれませんが、</p>
+<p>コーヒーを淹れる際、お湯は一回で入れ切りません。必ずという決まった回数はないみたいですが、大体3回に分けて淹れます。つまり3湯です。</p>
+<p> </p>
+<p>1湯目はいわゆる<strong>蒸らし</strong>という工程です。</p>
+<p>ドリッパー内のコーヒー豆を満遍なく濡らし、</p>
+<p><strong>ガスを放出</strong>させることでしっかりと抽出できるようにします。</p>
+<p>このガスによってコーヒー豆というか粉が<strong>膨らむ</strong>のです。</p>
+<p><strong>新鮮</strong>であればあるほど膨らみます。</p>
+<p>正確にはお湯の温度も高ければ高いほど膨らみます。</p>
+<p>ビールの泡みたいにとんでもなく膨張しちゃう場合は</p>
+<p>温度が<strong>高すぎ</strong>ている可能性があるのでご注意を。</p>
+<p> </p>
+<p>1湯目のお湯の量はコーヒー豆の1倍から2倍の量(重さ)がいいと思います。</p>
+<p>15gのコーヒー豆に対しては<strong>15g~30g</strong>のお湯を第1湯目で注ぐ、ということです。</p>
+<p> </p>
+<p> </p>
+<p>ストップウォッチの計測を開始し、お湯を注ぎ始ます。</p>
+<p>第1湯の注ぎ時間は<strong>10秒</strong>です。</p>
+<p><strong>ドリッパー</strong>を上から見て円の中心から外側に<strong>渦を描くよう</strong>に細ーくかけていきます。</p>
+<p>一番外側まで到達したところで1倍~2倍の量にだいたいなっていると思います。</p>
+<p> </p>
+<p>コーヒー豆というか粉(以下粉といいます)全体にお湯が行き渡り、</p>
+<p>粉から<strong>ガス</strong>が出ていい感じに膨らんでくるのが理想です。</p>
+<p>ただ膨らまなくても慌てないでください。</p>
+<p>コーヒー豆が<strong>新鮮</strong>じゃなかったり、</p>
+<p>お湯の温度が低すぎたりすることが原因として考えられますが、</p>
+<p> </p>
+<p>その際はゆっくりとドリッパーを持ち上げて少し傾けながら、</p>
+<p>回り終える直前の<strong>独楽</strong>のように</p>
+<p>ゆっくり回してみてください。</p>
+<p> </p>
+<p>そうすることで</p>
+<p>より隅々までお湯を行き渡らせることができます。</p>
+<p> 多分それでも膨らむことはありませんが、</p>
+<p>そのまま第2お湯へ行っちゃいましょう！</p>
+<p> </p>
+<p> 第2湯は第1湯を注ぎ始めてから<strong>40秒後</strong>に注ぎ始めます。</p>
+<p> </p>
+<h3 id="5">5. コーヒードリップ第2湯</h3>
+<p>40秒までにしっかりと香りを楽しんだら、</p>
+<p><strong>2湯目</strong>を注ぎ始めます。</p>
+<p> </p>
+<p>お湯の量は1湯目と合わせて全体の<strong>40%</strong>程。</p>
+<p>コーヒー豆<strong>15g</strong>、お湯<strong>210g</strong>だとすると、</p>
+<p>2湯目が終わった時点で<strong>84g</strong>になることを目指します。</p>
+<p> </p>
+<p>注ぐ速さは1湯目と同じくらいでいいです。</p>
+<p>注ぎ終わりが<strong>1分10秒</strong>くらいになればいいと思います。</p>
+<p> </p>
+<p>1湯目と同じく円の中心から<strong>"の"の字</strong>を描くように注ぎます。</p>
+<p>"の"の大きさは大体"の"の直径が<strong>500円玉</strong>くらいになるイメージでいいかと思います。</p>
+<p> </p>
+<p><strong>さらに</strong>、</p>
+<p>"の"の外側の線を描くとき、ドリップポッドの高さを少し上げることで調節します。</p>
+<p>高いところから落としたり低いところから落としたりすることで粉を<strong>攪拌</strong>させ、</p>
+<p>より<strong>満遍なく</strong>コーヒーを<strong>抽出</strong>できるとされています。</p>
+<p> </p>
+<h3 id="6">6. コーヒードリップ第3湯</h3>
+<p><strong>最後</strong>の注ぎです。全体の<strong>60%</strong>を注ぐため時間は<strong>少し長い</strong>です。</p>
+<p> </p>
+<p>3湯目を注ぎ始める<strong>タイミング</strong>としては、</p>
+<p>2湯目のお湯が<strong>500円玉</strong>くらいの大きさになったら、</p>
+<p>膨らんだ粉が戻っていき表面が<strong>平ら</strong>になったら</p>
+<p>などいろいろ言われていますが、</p>
+<p>個人的には<strong>1分35秒</strong>の時点で注ぎ始めるのが一番わかりやすいです。</p>
+<p>(もちろん豆の<strong>挽き具合</strong>やその他<strong>コンディション</strong>によって変わるのでそこは<strong>柔軟</strong>でなければならないのですが。。)</p>
+<p> </p>
+<p>今度は<strong>ドリップポッド</strong>の高さを上げたり下げたりせず、<strong>一定の高さを保ちながら</strong>"の"の字を描いてきます。</p>
+<p>注ぐ<strong>スピード</strong>は2湯目までより<strong>早め</strong>です。</p>
+<p>全体の<strong>80%</strong>くらいまで注いだら"の"の字を描くのを止め、<strong>中心に注ぎ続けます</strong>。</p>
+<p>最後の方はコーヒー豆を<strong>攪拌</strong>せずに安定した抽出に専念した方が良いためです。</p>
+<p> </p>
+<p>100%注ぎ終えた時点で<strong>2分半</strong>くらいになることが<strong>目標</strong>です。</p>
+<p>あとは落ち終えるのを待つだけです。</p>
+<p> </p>
+<p>が、前回話した通り、</p>
+<p><strong>最後の1滴</strong>をカップに落としてはいけない為、</p>
+<p>お湯の見えている部分が<strong>1円玉</strong>より小さくなったくらいでカップから外してしまいましょう。</p>
+<p> </p>
+<p>サーバーに落とした場合は</p>
+<p>カップに注ぐ前にサーバー内でコーヒーを軽く<strong>攪拌</strong>させ、濃さを均等にすると同時に少しだけ空気にふれさせてあげましょう。</p>
+<p>厳密にはカップでもやった方が良いのですが、カップに落としたのなら全体量が少ないので濃さのムラは少ないと思われるので大丈夫です。</p>
+<p> </p>
+<p>こんな感じです。いかがでしょうか。</p>
+<p> </p>
+<p><strong>こういう場合は？</strong>とか</p>
+<p><strong>こういう風に聞いたんだけど？</strong>とか</p>
+<p>そういったお声をぜひ聞きたいので</p>
+<p>もしあればコメント頂ければ幸いです！</p>
+<p> </p>
+<p>ではまた。</p>
+<p> </p>
+<script type="text/javascript">// <![CDATA[
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20210203","msmaflink");
+msmaflink({"n":"HARIO (ハリオ) V60 耐熱ガラス透過 コーヒードリッパー オリーブウッド 01 コーヒードリップ 1~2杯用 VDG-01-OV","b":"HARIO(ハリオ)","t":"VDG-01-OV","d":"https:\/\/m.media-amazon.com","c_p":"\/images\/I","p":["\/41NCMIvoLRL._SL500_.jpg","\/417IArAkdSL._SL500_.jpg","\/41hVGoTKiCL._SL500_.jpg","\/518vl4SQrgL._SL500_.jpg","\/51oMPGN0NDL._SL500_.jpg","\/41grfbbdVEL._SL500_.jpg","\/31gNDi69+nL._SL500_.jpg"],"u":{"u":"https:\/\/www.amazon.co.jp\/dp\/B01B2O5W9Q","t":"amazon","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"Amazonで見る","u_bc":"#f79256","u_url":"https:\/\/www.amazon.co.jp\/dp\/B01B2O5W9Q","a_id":2644022,"p_id":170,"pl_id":27060,"pc_id":185,"s_n":"amazon","u_so":1},{"id":2,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/search.rakuten.co.jp\/search\/mall\/HARIO%20(%E3%83%8F%E3%83%AA%E3%82%AA)%20V60%20%E8%80%90%E7%86%B1%E3%82%AC%E3%83%A9%E3%82%B9%E9%80%8F%E9%81%8E%20%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%89%E3%83%AA%E3%83%83%E3%83%91%E3%83%BC%20%E3%82%AA%E3%83%AA%E3%83%BC%E3%83%96%E3%82%A6%E3%83%83%E3%83%89%2001%20%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%89%E3%83%AA%E3%83%83%E3%83%97%201~2%E6%9D%AF%E7%94%A8%20VDG-01-OV\/","a_id":2644020,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":2}],"eid":"KesIQ","s":"s"});
+// ]]></script>
+<div id="msmaflink-KesIQ">リンク</div>
+<script data-ad-client="ca-pub-3400710427589065" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  </div>
+</div>
+
+  <footer class="indexfooter">
+    <div class="links">
+      <div class="iglink">
+        <a class="ig"  href="https://www.instagram.com/shefuyuta/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="twitterlink">
+        <a class="twitter" href="https://twitter.com/shefuyuta" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="tumblrlink">
+        <a class="tumblr" href="https://www.tumblr.com/blog/view/shefuyuta" target="_blank"><i class="fab fa-tumblr"></i></a>
+      </div>
+    </div>
+  </footer>
+<script src="../js/blog.js"></script>
+<script src="../js/jquery.js"></script>
+</body>
+</html>

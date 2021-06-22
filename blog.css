@@ -225,7 +225,8 @@ border-bottom-style: solid;
 
 /* ------blog----- */
 .blogmenu {
-    position: fixed;
+    top: 0;
+    position: sticky;
     margin-left: 10%;
     padding: 10% 0;
     display: flex;

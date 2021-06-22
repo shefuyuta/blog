@@ -341,13 +341,13 @@ list-style-type: none;
 .bloglist ul {
   list-style-type: none;
   padding-left: 10px;
-  font-size: 0.8vw;
 }
 .bloglist a {
   color: black;
   font-family: Arial;
   text-decoration: none;
   font-weight: 100;
+  font-size: 0.8vw;
 
 }
 .bloglist li:hover a{

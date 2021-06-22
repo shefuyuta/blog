@@ -209,7 +209,6 @@ border-bottom-style: solid;
   z-index: 1;
   z-index: 1;
 }
-
 .message:not(:first-child) {
   paddingtop: 10%;
 }

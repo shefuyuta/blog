@@ -353,6 +353,8 @@ list-style-type: none;
 .bloglist li:hover a{
   text-decoration: underline;
 }
+
+p > a {text-decoration: underline;}
 /*-----footer-----*/
 footer {
   background-color:transparent;

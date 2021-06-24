@@ -367,17 +367,24 @@ p > a {text-decoration: underline;}
   min-height: 300px;
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 2;
 }
 .profilepicture {
   position: relative;
   width: 100%;
-  hight: 30%;
-  margin: 10% 0;
+  hight: 25%;
+  margin: 5% 0;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 3;
   object-position: 40% 50%;
+}
+
+.profilepicture::before {
+  width: 50%;
+  padding-top: 100%;
 }
 
 .profilepicture img {

@@ -26,7 +26,6 @@ body{
 header {
   background-color: rgb(160, 160, 160);
   width: 100%;
-  position: sticky;
 }
 .indexheader{
   background-color: transparent;

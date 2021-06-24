@@ -366,7 +366,7 @@ p > a {text-decoration: underline;}
   width: 100%;
   min-height: 300px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .profilepicture {
   position: relative;

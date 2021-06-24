@@ -381,7 +381,7 @@ p > a {text-decoration: underline;}
   object-position: 40% 50%;
 }
 
-.profilepicture img::before {
+.profilepicture img:before {
   padding-top: 100%;
 }
 

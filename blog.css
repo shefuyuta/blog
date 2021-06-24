@@ -232,7 +232,7 @@ border-bottom-style: solid;
 }
 #tabs{
   padding: 0;
-  top: 143px;
+  top: 143px + 10%;
   position: sticky;
 }
 

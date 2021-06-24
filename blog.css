@@ -411,7 +411,7 @@ p > a {text-decoration: underline;}
 footer {
   background-color:transparent;
   width: 100%;
-  position: absolute;
+  position: relative;
 }
 
 .links {

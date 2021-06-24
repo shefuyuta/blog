@@ -365,15 +365,15 @@ p > a {text-decoration: underline;}
   position: relative;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  border-color: white;
-  border-style: double;
-  border-width: 5px;
   z-index: 3;
   object-position: 40% 50%;
 }
 
 .profilepicture img {
+  border-radius: 50%;
+  border-color: white;
+  border-style: double;
+  border-width: 5px;
   background-size: cover;
   width: 20%;
   hight: 100%;

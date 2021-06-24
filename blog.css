@@ -225,15 +225,17 @@ border-bottom-style: solid;
 
 /* ------blog----- */
 .blogmenu {
-    top: 0;
-    position: sticky;
     margin-left: 10%;
     padding: 10% 0;
     display: flex;
     flex-direction: column;
     width: 16%;
 }
-#tabs{padding: 0;}
+#tabs{
+  padding: 0;
+  top: 0;
+  position: sticky;
+}
 
 .blogtopics {
   cursor: pointer;

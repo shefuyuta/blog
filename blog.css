@@ -214,7 +214,8 @@ border-bottom-style: solid;
 }
 
 /* -----container----- */
-.container {
+/* ------blog----- */
+.blogcontainer {
   top: 135px;
   width: 100%;
   min-height: 300px;
@@ -222,7 +223,6 @@ border-bottom-style: solid;
   flex-direction: row;
 }
 
-/* ------blog----- */
 .blogmenu {
     margin-left: 10%;
     padding: 10% 0;
@@ -361,8 +361,16 @@ p > a {text-decoration: underline;}
 .currentblog a{text-decoration: underline;}
 
 /* -----About----- */
+.aboutcontainer {
+  top: 135px;
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: row;
+}
 .profilepicture {
   position: relative;
+  width: 100%;
   hight: 30%;
   margin: 10% 0;
   display: flex;
@@ -376,10 +384,9 @@ p > a {text-decoration: underline;}
   border-radius: 50%;
   border-color: white;
   border-style: double;
-  border-width: 5px;
+  border-width: 8px;
   background-size: cover;
-  width: 20%;
-  hight: 100%;
+  width: 30%;
 }
 
 .profile {

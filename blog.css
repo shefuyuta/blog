@@ -382,6 +382,7 @@ p > a {text-decoration: underline;}
 }
 
 .profilepicture img::before {
+  content: "";
   display: block;
   padding-top: 100%;
 }

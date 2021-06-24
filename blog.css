@@ -363,6 +363,9 @@ p > a {text-decoration: underline;}
 /* -----About----- */
 .profilepicture {
   position: relative;
+  hight: 30%;
+  margin: 10% 0;
+  display: flex;
   align-items: center;
   justify-content: center;
   z-index: 3;

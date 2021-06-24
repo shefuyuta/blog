@@ -383,7 +383,6 @@ p > a {text-decoration: underline;}
 }
 
 .profilepicture::before {
-  width: 50%;
   padding-top: 100%;
 }
 

@@ -354,6 +354,9 @@ list-style-type: none;
 }
 
 p > a {text-decoration: underline;}
+
+.currentblog {cursor: default;}
+.currentblog a{text-decoration: underline;}
 /*-----footer-----*/
 footer {
   background-color:transparent;

@@ -359,6 +359,18 @@ p > a {text-decoration: underline;}
 
 .currentblog {cursor: default;}
 .currentblog a{text-decoration: underline;}
+
+/* -----About----- */
+.profilepicture {
+  align-items: center;
+  justify-content: center;
+}
+.profile {
+  align-items: center;
+  justify-content: center;
+}
+
+
 /*-----footer-----*/
 footer {
   background-color:transparent;

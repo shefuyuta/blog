@@ -391,7 +391,6 @@ p > a {text-decoration: underline;}
   position: relative;
   height: auto;
 }
-
 .profilepicture > img::before {
   content: "";
   display: block;

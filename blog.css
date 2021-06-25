@@ -391,11 +391,11 @@ p > a {text-decoration: underline;}
   position: relative;
   height: 100%;
 }
-.profilepicture img::before {
+/* .profilepicture img::before {
   content: "";
   display: block;
   padding-top: 100%;
-}
+} */
 
 .profile {
   position: relative;

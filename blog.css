@@ -391,7 +391,7 @@ p > a {text-decoration: underline;}
   border-color: white;
   border-style: double;
   border-width: 8px;
-  height: 100%;
+  width: 100%;
   object-fit: cover;
   object-position: 40% 50%;
 }

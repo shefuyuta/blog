@@ -391,7 +391,7 @@ p > a {text-decoration: underline;}
   position: relative;
   height: auto;
 }
-.profilepicture > img::before {
+.profilepicture > img:before {
   content: "";
   display: block;
   padding-top: 100%;

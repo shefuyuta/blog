@@ -397,6 +397,7 @@ p > a {text-decoration: underline;}
 }
 
 .profile {
+  margin: 3% 0;
   position: relative;
   align-items: center;
   justify-content: center;

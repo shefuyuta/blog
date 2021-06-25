@@ -185,7 +185,7 @@ border-bottom-style: solid;
   opacity: 1;
 }
 .submenu.active{
-  min-height: 100px;
+  min-height: 90px;
 }
 
 /*-----indexcontainer-----*/

@@ -172,6 +172,7 @@ border-bottom-style: solid;
 
 .submenu li a {
   color: white;
+  font-size: 1em;
 }
 .submenu li:hover{
   opacity: 1;

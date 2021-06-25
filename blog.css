@@ -388,7 +388,7 @@ p > a {text-decoration: underline;}
   border-width: 8px;
   width: 25%;
 }
-.profilepicture > img:before {
+.profilepicture > img::before {
   content: "";
   display: block;
   padding-top: 100%;

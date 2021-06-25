@@ -394,7 +394,6 @@ p > a {text-decoration: underline;}
   border-style: double;
   border-width: 8px;
   width: 100%;
-  height: inherit;
   object-fit: cover;
 }
 

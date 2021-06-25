@@ -379,6 +379,7 @@ p > a {text-decoration: underline;}
   justify-content: center;
   z-index: 3;
   object-position: 40% 50%;
+  min-height: 200px;
 }
 
 .profilepicture img {

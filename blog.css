@@ -381,17 +381,17 @@ p > a {text-decoration: underline;}
   object-position: 40% 50%;
   height: auto;
 }
+.profilepicture::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
 .profilepicture > img {
   border-radius: 50%;
   border-color: white;
   border-style: double;
   border-width: 8px;
-  width: 25%;
-}
-.profilepicture::before {
-  content: "";
-  display: block;
-  padding-top: 100%;
+  width: 100%;
 }
 
 .profile {

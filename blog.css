@@ -374,12 +374,11 @@ p > a {text-decoration: underline;}
 
 .profilepicture {
   position: relative;
-  width: 25%;
+  width: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 3;
-  object-position: 40% 50%;
   height: auto;
 }
 .profilepicture::before {
@@ -394,6 +393,7 @@ p > a {text-decoration: underline;}
   border-width: 8px;
   width: 100%;
   object-fit: cover;
+  object-position: 40% 50%;
 }
 
 .profile {

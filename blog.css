@@ -354,7 +354,6 @@ list-style-type: none;
 .bloglist li:hover a{
   text-decoration: underline;
 }
-
 p > a {text-decoration: underline;}
 
 .currentblog {cursor: default;}

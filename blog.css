@@ -368,6 +368,7 @@ p > a {text-decoration: underline;}
   display: flex;
   flex-direction: column;
   position: relative;
+  justify-content: center;
   z-index: 2;
 }
 .profilepicture {

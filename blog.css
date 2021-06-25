@@ -361,7 +361,7 @@ p > a {text-decoration: underline;}
 
 /* -----About----- */
 .aboutcontainer {
-  top: 135px;
+  margin: 10% 0;
   width: 100%;
   min-height: 300px;
   height: auto;

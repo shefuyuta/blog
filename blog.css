@@ -227,6 +227,7 @@ border-bottom-style: solid;
 .bloglist a {font-size: 1.6vw;}
 .changetopics{width: 25%;}
 .bloglist{width: 60%;}
+.blogtitle{font-size: 6vw;}
 }
 
 .blogcontainer {
@@ -300,6 +301,7 @@ list-style-type: none;
 .blogtitle {
   font-family: Arial Black;
   color: black;
+  font-size: 3vh;
 }
 .blogcontent {
   margin: 8% 0;

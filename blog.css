@@ -381,11 +381,6 @@ p > a {text-decoration: underline;}
   object-position: 40% 50%;
 }
 
-.profilepicture img::before {
-  content: "";
-  display: block;
-  padding-top: 100%;
-}
 
 .profilepicture img {
   border-radius: 50%;
@@ -394,7 +389,14 @@ p > a {text-decoration: underline;}
   border-width: 8px;
   background-size: cover;
   width: 25%;
+  position: relative;
 }
+.profilepicture img::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
 
 .profile {
   position: relative;

@@ -390,6 +390,7 @@ p > a {text-decoration: underline;}
   background-size: cover;
   width: 25%;
   position: relative;
+  height: auto;
 }
 .profilepicture img::before {
   content: "";

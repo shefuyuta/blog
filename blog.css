@@ -381,7 +381,7 @@ p > a {text-decoration: underline;}
   object-position: 40% 50%;
   height: auto;
 }
-.profilepicture img {
+.profilepicture > img {
   border-radius: 50%;
   border-color: white;
   border-style: double;

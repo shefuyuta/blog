@@ -386,10 +386,7 @@ p > a {text-decoration: underline;}
   border-color: white;
   border-style: double;
   border-width: 8px;
-  background-size: cover;
   width: 25%;
-  position: relative;
-  height: auto;
 }
 .profilepicture > img:before {
   content: "";

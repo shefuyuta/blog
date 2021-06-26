@@ -46,7 +46,7 @@ header {
 }
 
 @media screen and (max-width: 480px){
-  .title h1 {font-size: 1.5em;}
+  .title h1 {font-size: 2em;}
 }
 
 /*背景を文字でくりぬく*/

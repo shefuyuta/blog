@@ -44,6 +44,11 @@ header {
   color: white;
   font-size: 3.5em;
 }
+
+@media screen and (max-width: 480px){
+  .title h1 {font-size: 1.5em;}
+}
+
 /*背景を文字でくりぬく*/
 /*  -webkit-text-fill-color: transparent;
   font-weight: 900;

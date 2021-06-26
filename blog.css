@@ -379,7 +379,7 @@ p > a {text-decoration: underline;}
 @media screen and (max-width: 480px){
   .blogtopics {
     font-size: 2.8vw;
-    border-left-width: 3px;
+    border-left: 3px;
   }
   .topics {width: 60%;}
   .topics a{font-size: 2.4vw;}

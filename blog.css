@@ -193,7 +193,7 @@ border-bottom-style: solid;
 @media screen and (max-width: 480px){
   .menulist a {
     font-size: 0.8em;
-    padding-top: 0.5px;
+    padding-top: 2px;
   }
   .menulist > li {
     width: 20%;
@@ -385,6 +385,8 @@ p > a {text-decoration: underline;}
     width: 25%;
     margin-left: 5%;
   }
+  .blogmenu ul{padding: 0;}
+
   .blogcontent{
     width: 60%;
     padding: 2%  3%;

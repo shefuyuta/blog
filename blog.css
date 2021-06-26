@@ -282,6 +282,7 @@ border-bottom-style: solid;
 .topics ul{
 list-style-type: none;
 padding: 0;
+margin: 0 3%;
 }
 
 .topics li{
@@ -392,7 +393,6 @@ p > a {text-decoration: underline;}
   }
   .blogmenu ul {
     padding: 0;
-    margin: 0 3%;
   }
 
   .blogcontent{

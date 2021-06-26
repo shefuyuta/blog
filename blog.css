@@ -300,6 +300,8 @@ margin: 0 3%;
   border-bottom-color: black;
 }
 
+.topic{margin: 2% 0;}
+
 /* -----blog content----- */
 .blogtitle {
   font-family: Arial Black;

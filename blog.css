@@ -120,9 +120,9 @@ opacity: 0.3;
   text-align: center;
 }
 
-/* @media (max-width: 400px){
+@media (max-width: 480px){
   .menulist > li {width: 20%;}
-} */
+}
 
 .menulist a {
   text-decoration: none;
@@ -220,7 +220,7 @@ border-bottom-style: solid;
 
 /* -----container----- */
 /* ------blog----- */
-/* @media (max-width: 400px){
+@media (max-width: 480px){
 .blogtopics{font-size: 2.8vw;}
 .topics a{font-size: 2.4vw;}
 .changetopics {font-size: 2.8vw;}
@@ -228,7 +228,7 @@ border-bottom-style: solid;
 .changetopics{width: 25%;}
 .bloglist{width: 60%;}
 .blogtitle{font-size: 6vw;}
-} */
+}
 
 .blogcontainer {
   top: 135px;

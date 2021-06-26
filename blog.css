@@ -192,6 +192,10 @@ border-bottom-style: solid;
   min-height: 96px;
 }
 
+@media screen and (max-width: 480px) {
+  .submenu.active{display: none;}
+}
+
 /*-----indexcontainer-----*/
 .indexcontainer{
     display: flex;

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+  <title>shefuyuta blog</title>
+  <link rel="icon" href="../pictures/PSX_20200529_201911.jpg">
+  <link rel="stylesheet" href="../blog.css">
+  <link rel="stylesheet" href="../hover.css">
+  <link rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+  integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+  crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+</head>
+<body>
+  <div class="background"></div>
+  <header>
+    <section class="title">
+      <h1>shefuyuta blog</h1>
+    </section>
+    <nav class="menu">
+      <section class="menuunderline">
+      </section>
+  <ul class="menulist">
+      <li class="move"><a class="hvr-bob" href="../index.html">Home</a></li>
+      <li class="currentpage"><a class="hvr-bob" href="../blog.html">Blog</a></li>
+      <li class="move"><a href="../about.html" class="hvr-bob">About</a></li>
+      <li id="recipemenu" class="move"><a href="https://shefuyuta.github.io/recipes" class="hvr-bob" target="_blank">Recipes</a>
+      <ul class="submenu">
+        <div class="sideline"></div>
+        <li><a href="https://shefuyuta.github.io/recipes/recipepastajpn.html" target="_blank">Pasta</a></li>
+        <li><a href="https://shefuyuta.github.io/recipes/recipericejpn.html" target="_blank">Rice</a></li>
+        <li><a href="https://shefuyuta.github.io/recipes/shefuyutarecipesjpn.html" target="_blank">Bread</a></li>
+        <li><a href="https://shefuyuta.github.io/recipes/recipemainjpn.html" target="_blank">MainDishes</a></li>
+      </ul></li>
+    </ul>
+    </nav>
+  </header>
+  <div class="blogcontainer">
+  <div class="blogmenu">
+  <ul id="tabs">
+    <li id="cookingtab" class="changetopics active"><a>Cooking</a>
+     <div class="bloglist shownlist"><ul>
+      <li><a href="../cooking/dashipasta.html">[レシピ]出汁パスタのすゝめ</a></li>
+     </ul></div>
+    </li>
+    <li id="coffeetab" class="changetopics"><a>Coffee</a>
+      <div class="bloglist"><ul>
+      <li href="../coffee/fiveelements.html"><a>ドリップコーヒーの味を決める5つの要素</a></li>
+      <li><a href="../coffee/stepsofdripcoffee.html">美味しいドリップコーヒーの淹れ方</a></li>
+      </ul></div>
+    </li>
+    <li id="programmingtab" class="changetopics"><a>Programming</a>
+      <div class="bloglist"><ul>
+      <li><a class="currentblog">[Javascript]サブメニューの作り方</a></li>
+      <li><a href="transparentproperty.html">[css]borderプロパティのみを透過させたい</a></li>
+      </ul></div>
+    </li>
+    <li id="lifetab" class="changetopics"><a>Life</a>
+      <div class="bloglist"><ul>
+      <li><a href="">1</a></li>
+      </ul></div>
+    </li>
+    <li id="businesstab" class="changetopics"><a>Business</a>
+      <div class="bloglist"><ul>
+      <li><a href="">1</a></li>
+      </ul></div>
+    </li>
+  </ul>
+</div>
+<div class="blogcontent">
+<h1 class="blogtitle">[Javascript]サブメニューの作り方</h1>
+<p> こんにちは。</p>
+<p> </p>
+<p>前回はcssの<strong>transitionが効かない</strong>時の<strong>対処法</strong>について書き、</p>
+<p>例として<strong>Javascript</strong>を使ったサブメニューを出しましたが、</p>
+<p>そもそもサブメニュー自体を紹介した方が良いのでは？</p>
+<p>と思い投稿しています。</p>
+<p> </p>
+<p>メニューの上にカーソルを乗せるとその下とか右からサブメニューが<strong>スライドして</strong>出てくるあれです。 </p>
+<p> </p>
+<p>こちらを<strong>参照</strong>ください。</p>
+<p>向かって<strong>右側のメニュー</strong>(と言うかただの項目ですが)にカーソルを合わせるとサブメニューとして3つの項目が現れると言う例です。</p>
+<p> </p>
+<p class="codepen" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-height="265" data-theme-id="dark" data-default-tab="css,result" data-user="shefuyuta" data-slug-hash="xxqPRNx" data-pen-title="submenu">See the Pen <a href="https://codepen.io/shefuyuta/pen/xxqPRNx"> submenu</a> by shefuyuta (<a href="https://codepen.io/shefuyuta">@shefuyuta</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<p> </p>
+<p>色は適当につけたのでセンスの良い皆さんはもっと綺麗な組み合わせで作ってあげてください笑</p>
+<p> </p>
+<p>アレンジももちろんできますが、上の例でいうところの</p>
+<p><strong>&lt;ul class="menulist"&gt;&lt;/ul&gt;の中</strong>にサブメニューを入れないと</p>
+<p><strong>サブメニュー</strong>に<strong>カーソルを移した時</strong>(つまり"アルファベット"からカーソルをずらした時)に<strong>.active</strong>クラスが消えてサブメニューが<strong>引っ込んでしまいます</strong>。</p>
+<p> </p>
+<p>つまり、<strong>サブメニュー</strong>も<strong>class="menulist"</strong>に含まれていないといけません。</p>
+<p>(当たり前だろ!と怒られてしまうかもしれませんが、当時私はこれに頭を抱えていたのですw)</p>
+<p> </p>
+<p><strong>submenu:hover</strong>を工夫してもっとカーソル位置をもっとわかりやすくしても</p>
+<p>良いかもしれませんね。</p>
+<p> </p>
+<p>今回は以上です。</p>
+<p> </p>
+<p> </p>
+<!-- START MoshimoAffiliateEasyLink -->
+<p>
+<script type="text/javascript">// <![CDATA[
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20210203","msmaflink");
+msmaflink({"n":"ロジクール ワイヤレスマウス トラックボール 無線 M575S Bluetooth Unifying 5ボタン トラックボールマウス ワイヤレス マウス windows mac iPad 電池寿命最大24ケ月 M575 ブラック 国内正規品 1年間無償保証","b":"Logicool(ロジクール)","t":"910-005877","d":"https://m.media-amazon.com","c_p":"/images/I","p":["/31TYOVsxQTL._SL500_.jpg","/41cQmYNQ03L._SL500_.jpg","/41CYXNwFrBL._SL500_.jpg","/513aEl7UqxL._SL500_.jpg","/41vH6BC5HyL._SL500_.jpg","/41TIERQwrRL._SL500_.jpg","/41X8By-olXL._SL500_.jpg","/41cqXexnCgL._SL500_.jpg","/41Xk3angwNL._SL500_.jpg","/310CaQSNWNL._SL500_.jpg"],"u":{"u":"https://www.amazon.co.jp/dp/B08L4ZR79Q","t":"amazon","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"Amazonで見る","u_bc":"#f79256","u_url":"https://www.amazon.co.jp/dp/B08L4ZR79Q","a_id":2644022,"p_id":170,"pl_id":27060,"pc_id":185,"s_n":"amazon","u_so":1},{"id":2,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https://search.rakuten.co.jp/search/mall/%E3%83%AD%E3%82%B8%E3%82%AF%E3%83%BC%E3%83%AB%20%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E3%83%9E%E3%82%A6%E3%82%B9%20%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%AB%20%E7%84%A1%E7%B7%9A%20M575S%20Bluetooth%20Unifying%205%E3%83%9C%E3%82%BF%E3%83%B3%20%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%AB%E3%83%9E%E3%82%A6%E3%82%B9%20%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%20%E3%83%9E%E3%82%A6%E3%82%B9%20windows%20mac%20iPad%20%E9%9B%BB%E6%B1%A0%E5%AF%BF%E5%91%BD%E6%9C%80%E5%A4%A724%E3%82%B1%E6%9C%88%20M575%20%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%20%E5%9B%BD%E5%86%85%E6%AD%A3%E8%A6%8F%E5%93%81%201%E5%B9%B4%E9%96%93%E7%84%A1%E5%84%9F%E4%BF%9D%E8%A8%BC/","a_id":2644020,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":2}],"eid":"qxXd5","s":"xs"});
+// ]]></script>
+</p>
+<div id="msmaflink-qxXd5">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+
+<script data-ad-client="ca-pub-3400710427589065" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  </div>
+</div>
+
+  <footer class="indexfooter">
+    <div class="links">
+      <div class="iglink">
+        <a class="ig"  href="https://www.instagram.com/shefuyuta/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="twitterlink">
+        <a class="twitter" href="https://twitter.com/shefuyuta" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="tumblrlink">
+        <a class="tumblr" href="https://www.tumblr.com/blog/view/shefuyuta" target="_blank"><i class="fab fa-tumblr"></i></a>
+      </div>
+    </div>
+  </footer>
+<script src="../js/blog.js"></script>
+<script src="../js/jquery.js"></script>
+</body>
+</html>

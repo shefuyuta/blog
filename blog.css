@@ -323,6 +323,7 @@ margin: 0 3%;
   font-family: Arial Black;
   color: black;
 }
+.blogcontent li {list-style-type: none;}
 
 .index {
   border-width: 2px;

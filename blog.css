@@ -211,7 +211,6 @@ border-bottom-style: solid;
     justify-content: center;
     z-index: 1;
 }
-
 .message {
   width: 80%;
   margin: 120px 0 120px 0;
@@ -228,9 +227,13 @@ border-bottom-style: solid;
   paddingtop: 10%;
 }
 
-/* -----container----- */
-/* ------blog----- */
+@media screen and (max-width: 480px) {
+  .message a{font-size: 3vw;}
+}
 
+
+
+/* ------blog----- */
 .blogcontainer {
   top: 135px;
   width: 100%;
@@ -238,7 +241,6 @@ border-bottom-style: solid;
   display: flex;
   flex-direction: row;
 }
-
 .blogmenu {
     margin-left: 10%;
     padding: 10% 0;

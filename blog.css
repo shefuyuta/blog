@@ -434,12 +434,12 @@ p > a {text-decoration: underline;}
   align-items: center;
   justify-content: center;
 }
+.profile h3 {margin: 0;}
 
 @media screen and (max-width: 480px) {
   .profilepicture {width: 25%;}
   .profilepicture >img {border-width: 3px;}
   .profile {font-size: 0.6em;}
-  .profile h3 {margin: 0;}
 }
 
 /*-----footer-----*/

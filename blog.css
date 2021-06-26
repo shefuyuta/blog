@@ -193,8 +193,9 @@ border-bottom-style: solid;
 @media screen and (max-width: 480px){
   .menulist a {
     font-size: 0.8em;
-    top: 4px;
+    padding-top: 4px;
   }
+  .currentpage a{padding-top: 6px;}
   .menulist > li {
     width: 20%;
     padding: 11.25px 0 0 0;

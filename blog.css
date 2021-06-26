@@ -437,6 +437,7 @@ p > a {text-decoration: underline;}
 }
 
 @media screen and (max-width: 480px) {
+  .profilepicture {width: 25%;}
   .profilepicture >img {border-width: 3px;}
 }
 

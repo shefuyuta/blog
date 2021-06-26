@@ -436,6 +436,10 @@ p > a {text-decoration: underline;}
   justify-content: center;
 }
 
+@media screen and (max-width: 480px) {
+  .profilepicture >img {border-width: 3px;}
+}
+
 /*-----footer-----*/
 footer {
   background-color:transparent;

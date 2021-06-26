@@ -229,16 +229,6 @@ border-bottom-style: solid;
 
 /* -----container----- */
 /* ------blog----- */
-@media screen and (max-width: 480px){
-.blogtopics{font-size: 2.8vw;}
-.topics a{font-size: 2.4vw;}
-.changetopics {font-size: 2.8vw;}
-.bloglist a {font-size: 1.6vw;}
-.changetopics{width: 25%;}
-.bloglist{width: 60%;}
-.blogtitle{font-size: 6vw;}
-
-}
 
 .blogcontainer {
   top: 135px;
@@ -384,6 +374,15 @@ p > a {text-decoration: underline;}
 .currentblog {cursor: default;}
 .currentblog a{text-decoration: underline;}
 
+@media screen and (max-width: 480px){
+  .blogtopics{font-size: 2.8vw;}
+  .topics a{font-size: 2.4vw;}
+  .changetopics {font-size: 2.8vw;}
+  .bloglist a {font-size: 1.6vw;}
+  .bloglist{width: 60%;}
+  .blogtitle{font-size: 6vw;}
+  .blogmenu{width: 25%;}
+}
 /* -----About----- */
 .aboutcontainer {
   margin: 5.5% 0 1% 0;

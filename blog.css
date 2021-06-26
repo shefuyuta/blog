@@ -386,8 +386,8 @@ p > a {text-decoration: underline;}
   .blogcontent{
     width: 55%;
     padding: 2%  2%;
+    font-size: 0.8em;
   }
-  .blogcontent p{font-size: 0.8em;}
 }
 /* -----About----- */
 .aboutcontainer {

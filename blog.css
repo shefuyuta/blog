@@ -190,6 +190,7 @@ border-bottom-style: solid;
 }
 
 @media screen and (max-width: 480px){
+  .title {padding: 5px 0 5px 8px;}
   .menulist a {
     font-size: 0.8em;
     padding-top: 4px;

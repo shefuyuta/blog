@@ -390,7 +390,10 @@ p > a {text-decoration: underline;}
     width: 25%;
     margin-left: 5%;
   }
-  .blogmenu ul{padding: 0;}
+  .blogmenu ul {
+    padding: 0;
+    margin: 0 3%;
+  }
 
   .blogcontent{
     width: 60%;

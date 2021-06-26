@@ -379,9 +379,12 @@ p > a {text-decoration: underline;}
   .topics a{font-size: 2.4vw;}
   .changetopics {font-size: 2.8vw;}
   .bloglist a {font-size: 1.6vw;}
-  .bloglist{width: 60%;}
   .blogtitle{font-size: 6vw;}
-  .blogmenu{width: 25%;}
+  .blogmenu {
+    width: 25%;
+    margin-left: 5%;
+  }
+  .blogcontent{width: 55%;}
 }
 /* -----About----- */
 .aboutcontainer {

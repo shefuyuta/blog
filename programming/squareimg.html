@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+  <title>shefuyuta blog</title>
+  <link rel="icon" href="../pictures/PSX_20200529_201911.jpg">
+  <link rel="stylesheet" href="../blog.css">
+  <link rel="stylesheet" href="../hover.css">
+  <link rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+  integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+  crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+</head>
+<body>
+  <div class="background"></div>
+  <header>
+    <section class="title">
+      <h1>shefuyuta blog</h1>
+    </section>
+    <nav class="menu">
+      <section class="menuunderline">
+      </section>
+  <ul class="menulist">
+      <li class="move"><a class="hvr-bob" href="../index.html">Home</a></li>
+      <li class="currentpage"><a class="hvr-bob" href="../blog.html">Blog</a></li>
+      <li class="move"><a href="../about.html" class="hvr-bob">About</a></li>
+      <li id="recipemenu" class="move"><a href="https://shefuyuta.github.io/recipes" class="hvr-bob" target="_blank">Recipes</a>
+      <ul class="submenu">
+        <div class="sideline"></div>
+        <li><a href="https://shefuyuta.github.io/recipes/recipepastajpn.html" target="_blank">Pasta</a></li>
+        <li><a href="https://shefuyuta.github.io/recipes/recipericejpn.html" target="_blank">Rice</a></li>
+        <li><a href="https://shefuyuta.github.io/recipes/shefuyutarecipesjpn.html" target="_blank">Bread</a></li>
+        <li><a href="https://shefuyuta.github.io/recipes/recipemainjpn.html" target="_blank">MainDishes</a></li>
+      </ul></li>
+    </ul>
+    </nav>
+  </header>
+  <div class="blogcontainer">
+  <div class="blogmenu">
+  <ul id="tabs">
+    <li id="cookingtab" class="changetopics"><a>Cooking</a>
+     <div class="bloglist"><ul>
+      <li><a href="../cooking/dashipasta.html">[レシピ]出汁パスタのすゝめ</a></li>
+     </ul></div>
+    </li>
+    <li id="coffeetab" class="changetopics"><a>Coffee</a>
+      <div class="bloglist"><ul>
+      <li><a href="../coffee/fiveelements.html">ドリップコーヒーの味を決める5つの要素</a></li>
+      <li><a href="../coffee/stepsofdripcoffee.html">美味しいドリップコーヒーの淹れ方</a></li>
+      </ul></div>
+    </li>
+    <li id="programmingtab" class="changetopics active"><a>Programming</a>
+      <div class="bloglist shownlist"><ul>
+      <li><a href="transitionisnotappliedtodisplay.html">[css]display要素にtransitionが効かない...</a></li>
+      <li><a href="howtocreatesubmenu.html">[Javascript]サブメニューの作り方</a></li>
+      <li><a href="transparentproperty.html">[css]borderプロパティのみを透過させたい</a></li>
+      <li class="currentblog"><a>[css]画像を正方形にして入れたい</a></li>
+      <li><a href="linedsqureimgs.html">[css]正方形の要素を均等に並べたい</a></li>
+      </ul></div>
+    </li>
+    <li id="lifetab" class="changetopics"><a>Life</a>
+      <div class="bloglist"><ul>
+      <li><a href="">1</a></li>
+      </ul></div>
+    </li>
+    <li id="businesstab" class="changetopics"><a>Business</a>
+      <div class="bloglist"><ul>
+      <li><a href="../business/changingjobisnotabadthing.html">転職は悪いことじゃない</a></li>
+      </ul></div>
+    </li>
+  </ul>
+</div>
+<div class="blogcontent">
+<h1 class="blogtitle">[css]画像を正方形にして入れたい時</h1>
+<p>こんにちは。</p>
+<p> </p>
+<p>日々cssの勉強をしていると、</p>
+<p>度々奥の深さに驚かされます。</p>
+<p>(真の奥の深さを知るほどの知識はないのですが。。。)</p>
+<p> </p>
+<p>とにかく、</p>
+<p>新たな知識を得るたびにその学びにハッとさせられるのと、</p>
+<p>その先にもまだまだ学びがありそうという希望のようなものが</p>
+<p>湧いてきます。</p>
+<p> </p>
+<p>そして今回はこの前学んだCSSの使い方の中で</p>
+<p><strong>画像を正方形で入れたい時</strong>の話をしたいと思います。</p>
+<p>(実際には1年前くらいに学んだものを数日前に実際に使ってみたときに復習しました。)</p>
+<p> </p>
+<p> まずhtmlとcssはこんな感じになります↓↓↓</p>
+<div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/shefuyuta/embed/BaRayJy?height=300&amp;default-tab=html%2Cresult&amp;slug-hash=BaRayJy&amp;user=shefuyuta&amp;mce-style=height%3A%20300px%3B%20box-sizing%3A%20border-box%3B%20display%3A%20flex%3B%20align-items%3A%20center%3B%20justify-content%3A%20center%3B%20border%3A%202px%20solid%3B%20margin%3A%201em%200%3B%20padding%3A%201em%3B&amp;name=cp_embed_1" style="width: 100%; overflow: hidden; display: block;" title="CodePen Embed" loading="lazy" id="cp_embed_BaRayJy"></iframe></div>
+<p data-height="300" data-default-tab="html,result" data-slug-hash="BaRayJy" data-user="shefuyuta"> </p>
+<p data-height="300" data-default-tab="html,result" data-slug-hash="BaRayJy" data-user="shefuyuta"> </p>
+<p data-height="300" data-default-tab="html,result" data-slug-hash="BaRayJy" data-user="shefuyuta">ちなみに 画像を入れる際にはbackgroud-color:は不要です。html上で&lt;img&gt;タグを入れたり、cssでbackground-image: を入れたりして画像を入れ込んでください。</p>
+<p> </p>
+<p data-height="300" data-default-tab="html,result" data-slug-hash="BaRayJy" data-user="shefuyuta">&lt;img&gt;タグを使う場合は cssでimgタグ自体のwidth:を100%にする必要があります。</p>
+<p> </p>
+<p data-height="300" data-default-tab="html,result" data-slug-hash="BaRayJy" data-user="shefuyuta"> </p>
+<p> </p>
+<p data-height="300" data-default-tab="html,result" data-slug-hash="BaRayJy" data-user="shefuyuta">また、画像自体の縦横比率は変えたくないと思うので、object-fit: cover;をcssの画像クラスに含めてください。</p>
+<p> </p>
+<p data-height="300" data-default-tab="html,result" data-slug-hash="BaRayJy" data-user="shefuyuta">さらに、当然画像は正方形にトリミングされた形で表示されるので、トリミング位置を指定したいときはobject-position: ○○% 〇〇%;とします。</p>
+<p> </p>
+<p data-height="300" data-default-tab="html,result" data-slug-hash="BaRayJy" data-user="shefuyuta">(それぞれ0%の場合左端、上端となります。初期位置は真ん中で50% 50%です。)</p>
+<p> </p>
+<p> </p>
+<p data-height="300" data-default-tab="html,result" data-slug-hash="BaRayJy" data-user="shefuyuta">簡単にいうと、cssの<strong>::before</strong>を使います。</p>
+<p data-height="300" data-default-tab="html,result" data-slug-hash="BaRayJy" data-user="shefuyuta"> </p>
+<p data-height="300" data-default-tab="html,result" data-slug-hash="BaRayJy" data-user="shefuyuta">::boforeってなんぞや？ということになるかもしれないのですが、</p>
+<p data-height="300" data-default-tab="html,result" data-slug-hash="BaRayJy" data-user="shefuyuta"><a href="https://developer.mozilla.org/ja/docs/Web/CSS/::before">リファレンスサイト</a>では以下のように説明されています。</p>
+<p data-height="300" data-default-tab="html,result" data-slug-hash="BaRayJy" data-user="shefuyuta"> </p>
+<blockquote>
+<p data-height="300" data-default-tab="html,result" data-slug-hash="BaRayJy" data-user="shefuyuta">"選択した要素の最初の子要素として擬似要素を作成します。</p>
+<p data-height="300" data-default-tab="html,result" data-slug-hash="BaRayJy" data-user="shefuyuta">よく content プロパティを使用して、要素に装飾的な内容を追加するために用いられます。"</p>
+</blockquote>
+<p> </p>
+<p>擬似要素?となりますが、html上のある要素の手前にもう一個要素を作っちゃおうという物です。</p>
+<p>なんでhtml上には存在していない要素をもう一個作らないといけないのかというと、上のリファレンスサイトからの引用文2行目にある"装飾的な内容を追加するため"だけに擬似要素を作ります。</p>
+<p> </p>
+<p>今回行いたい装飾は、<strong>"要素を正方形にしたい"</strong>ということです。</p>
+<p>その装飾をするためだけに::beforeで擬似要素を作ります。 </p>
+<p> </p>
+<p>でもこう思いませんか？</p>
+<p>それだけなら要素の<strong>height:とwidth:</strong>を同じ大きさにすれば良いじゃん。</p>
+<p>そんな風に思っちゃった皆さん、まさにその通りなんです。</p>
+<p>高さと幅を指定すれば正方形は作れちゃいます。</p>
+<p> </p>
+<p>ただ一つだけ問題があるんです。</p>
+<p>それは、</p>
+<p>"親要素がどんな大きさだろうと正方形は頑固にその大きさを保ち続けてしまう"</p>
+<p> と言うことです。</p>
+<p> </p>
+<p>もっと言えばスマホ画面だろうとPC画面だろうと映画のスクリーン(そんなわけありませんが)だろうとこの正方形の大きさは変わりません。</p>
+<p>想像したらわかりますが、それでは不便なんです。</p>
+<p>(映画のスクリーンは想像しなくていいです笑)</p>
+<p> </p>
+<p>要素の大きさを親要素の大きさによって変えると言えば</p>
+<p>width: 〇〇%とかheight: 〇〇%ですよね。</p>
+<p>ただheight: と width: の両方を%で指定することができないんです。</p>
+<p>できたとしてスクリーン自体の縦横比率が自在に変わってしまうので正方形を保つのは不可能です。</p>
+<p> </p>
+<p>困りましたね。</p>
+<p> </p>
+<p>と言うことで出てくるのが</p>
+<p>じゃあheight:を設定する用に要素をもう一つ作ってしまえば良いではないか！</p>
+<p>と言う名案です。</p>
+<p> </p>
+<p>じゃあどうやって作るのか、</p>
+<p>ここで出てくるのが::beforeです。</p>
+<p> </p>
+<p>今回で言うと.square::before{}とします。</p>
+<p>そして::beforeの要素の中で設定するのは</p>
+<p>height:ではなく、縦方向のpaddingプロパティです。</p>
+<p>padding-top:(またはpadding-bottom:)を100%で設定します。</p>
+<p>::beforeで設定したpaddingが本要素の高さになってくれるのです。</p>
+<p> </p>
+<p>そしてこのpaddingの100%ってなんの100%なのかと言うと、</p>
+<p>本要素のwidthなんです！(なんで??って思いますがこのためなんですかね？)</p>
+<p> </p>
+<p>本要素のwidthの100%がheightになる=幅と高さが同じ=正方形になる！</p>
+<p>と言うことなんです！</p>
+<p>ここでもう一度最初にお見せした::beforeが含まれるコードを見てみましょう↓↓↓</p>
+<div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/shefuyuta/embed/BaRayJy?height=300&amp;default-tab=html%2Cresult&amp;slug-hash=BaRayJy&amp;user=shefuyuta&amp;mce-style=height%3A%20300px%3B%20box-sizing%3A%20border-box%3B%20display%3A%20flex%3B%20align-items%3A%20center%3B%20justify-content%3A%20center%3B%20border%3A%202px%20solid%3B%20margin%3A%201em%200%3B%20padding%3A%201em%3B&amp;name=cp_embed_2" style="width: 100%; overflow: hidden; display: block;" title="CodePen Embed" loading="lazy" id="cp_embed_BaRayJy"></iframe></div>
+<p> </p>
+<p>ここまでで、ほぇ〜っと思っていただけたら嬉しいです。</p>
+<p> </p>
+<p>また、::beforeなどの擬似要素を使うときは</p>
+<p>content: "";<br /> display: block;</p>
+<p>を必ず入れましょう。入れないと擬似要素が無効になります。</p>
+<p> </p>
+<p>ちなみにですが、</p>
+<p>-""内に文字を入れると擬似要素の中にその文字が含まれます。擬似要素のpaddingと要素の高さが一致しているので文字の位置は正方形の底に位置付けされます</p>
+<p>-例えばpadding-top:の値を50%にすると、heightの値がwidthの50%になり2:1の長方形になります。</p>
+<p> </p>
+<p>参考までに、この二つを実際にやってみるとこうなります↓↓↓</p>
+<div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_3" scrolling="no" src="https://codepen.io/shefuyuta/embed/JjNjoVe?height=300&amp;default-tab=html%2Cresult&amp;slug-hash=JjNjoVe&amp;user=shefuyuta&amp;name=cp_embed_3" style="width: 100%; overflow: hidden; display: block;" title="CodePen Embed" loading="lazy" id="cp_embed_JjNjoVe"></iframe></div>
+<p>
+<script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</p>
+<p> </p>
+<p>さらにさらに、 </p>
+<p>角を丸めるプロパティborder-radius: 50%;を使って</p>
+<p>正方形の4つ角全てを均等に丸めると</p>
+<p>正円が作れちゃいます。↓↓↓</p>
+<p class="codepen" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-height="300" data-default-tab="html,result" data-slug-hash="poPoJxO" data-user="shefuyuta">See the Pen <a href="https://codepen.io/shefuyuta/pen/poPoJxO"> A flexible circle</a> by shefuyuta (<a href="https://codepen.io/shefuyuta">@shefuyuta</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<p>※以下リファレンスサイトの一文の通り、::beforeはimgタグなどには使えないため、</p>
+<p>divなどで正方形を作成し、その背景画像を埋め込むか、中に画像を入れてください。</p>
+<blockquote>
+<p>”注: ::before および ::after によって生成される擬似要素は要素の整形ボックスに含まれるため、 &lt;img&gt; 要素や &lt;br&gt; 要素のような置換要素には適用されません。”</p>
+</blockquote>
+<p> </p>
+<p>いかがでしたでしょうか。</p>
+<p>参考になった、またはこれの通りやってもできなかったと言う場合は</p>
+<p>是非コメントいただけたら幸いです！</p>
+<p> </p>
+<p> </p>
+<p>
+<script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</p>
+<!-- START MoshimoAffiliateEasyLink -->
+<p>
+<script type="text/javascript">// <![CDATA[
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20210203","msmaflink");
+msmaflink({"n":"ロジクール ワイヤレスマウス トラックボール 無線 M575S Bluetooth Unifying 5ボタン トラックボールマウス ワイヤレス マウス windows mac iPad 電池寿命最大24ケ月 M575 ブラック 国内正規品 1年間無償保証","b":"Logicool(ロジクール)","t":"910-005877","d":"https://m.media-amazon.com","c_p":"/images/I","p":["/31TYOVsxQTL._SL500_.jpg","/41cQmYNQ03L._SL500_.jpg","/41CYXNwFrBL._SL500_.jpg","/513aEl7UqxL._SL500_.jpg","/41vH6BC5HyL._SL500_.jpg","/41TIERQwrRL._SL500_.jpg","/41X8By-olXL._SL500_.jpg","/41cqXexnCgL._SL500_.jpg","/41Xk3angwNL._SL500_.jpg","/310CaQSNWNL._SL500_.jpg"],"u":{"u":"https://www.amazon.co.jp/dp/B08L4ZR79Q","t":"amazon","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"Amazonで見る","u_bc":"#f79256","u_url":"https://www.amazon.co.jp/dp/B08L4ZR79Q","a_id":2644022,"p_id":170,"pl_id":27060,"pc_id":185,"s_n":"amazon","u_so":1},{"id":2,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https://search.rakuten.co.jp/search/mall/%E3%83%AD%E3%82%B8%E3%82%AF%E3%83%BC%E3%83%AB%20%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E3%83%9E%E3%82%A6%E3%82%B9%20%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%AB%20%E7%84%A1%E7%B7%9A%20M575S%20Bluetooth%20Unifying%205%E3%83%9C%E3%82%BF%E3%83%B3%20%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%AB%E3%83%9E%E3%82%A6%E3%82%B9%20%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%20%E3%83%9E%E3%82%A6%E3%82%B9%20windows%20mac%20iPad%20%E9%9B%BB%E6%B1%A0%E5%AF%BF%E5%91%BD%E6%9C%80%E5%A4%A724%E3%82%B1%E6%9C%88%20M575%20%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%20%E5%9B%BD%E5%86%85%E6%AD%A3%E8%A6%8F%E5%93%81%201%E5%B9%B4%E9%96%93%E7%84%A1%E5%84%9F%E4%BF%9D%E8%A8%BC/","a_id":2644020,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":2}],"eid":"qxXd5","s":"xs"});
+// ]]></script>
+</p>
+<div id="msmaflink-qxXd5">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+<script data-ad-client="ca-pub-3400710427589065" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  </div>
+</div>
+
+  <footer class="indexfooter">
+    <div class="links">
+      <div class="iglink">
+        <a class="ig"  href="https://www.instagram.com/shefuyuta/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="twitterlink">
+        <a class="twitter" href="https://twitter.com/shefuyuta" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="tumblrlink">
+        <a class="tumblr" href="https://www.tumblr.com/blog/view/shefuyuta" target="_blank"><i class="fab fa-tumblr"></i></a>
+      </div>
+    </div>
+  </footer>
+<script src="../js/blog.js"></script>
+<script src="../js/jquery.js"></script>
+</body>
+</html>

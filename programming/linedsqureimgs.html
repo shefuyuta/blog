@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+  <title>shefuyuta blog</title>
+  <link rel="icon" href="../pictures/PSX_20200529_201911.jpg">
+  <link rel="stylesheet" href="../blog.css">
+  <link rel="stylesheet" href="../hover.css">
+  <link rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+  integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+  crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+</head>
+<body>
+  <div class="background"></div>
+  <header>
+    <section class="title">
+      <h1>shefuyuta blog</h1>
+    </section>
+    <nav class="menu">
+      <section class="menuunderline">
+      </section>
+  <ul class="menulist">
+      <li class="move"><a class="hvr-bob" href="../index.html">Home</a></li>
+      <li class="currentpage"><a class="hvr-bob" href="../blog.html">Blog</a></li>
+      <li class="move"><a href="../about.html" class="hvr-bob">About</a></li>
+      <li id="recipemenu" class="move"><a href="https://shefuyuta.github.io/recipes" class="hvr-bob" target="_blank">Recipes</a>
+      <ul class="submenu">
+        <div class="sideline"></div>
+        <li><a href="https://shefuyuta.github.io/recipes/recipepastajpn.html" target="_blank">Pasta</a></li>
+        <li><a href="https://shefuyuta.github.io/recipes/recipericejpn.html" target="_blank">Rice</a></li>
+        <li><a href="https://shefuyuta.github.io/recipes/shefuyutarecipesjpn.html" target="_blank">Bread</a></li>
+        <li><a href="https://shefuyuta.github.io/recipes/recipemainjpn.html" target="_blank">MainDishes</a></li>
+      </ul></li>
+    </ul>
+    </nav>
+  </header>
+  <div class="blogcontainer">
+  <div class="blogmenu">
+  <ul id="tabs">
+    <li id="cookingtab" class="changetopics"><a>Cooking</a>
+     <div class="bloglist"><ul>
+      <li><a href="../cooking/dashipasta.html">[レシピ]出汁パスタのすゝめ</a></li>
+     </ul></div>
+    </li>
+    <li id="coffeetab" class="changetopics"><a>Coffee</a>
+      <div class="bloglist"><ul>
+      <li><a href="../coffee/fiveelements.html">ドリップコーヒーの味を決める5つの要素</a></li>
+      <li><a href="../coffee/stepsofdripcoffee.html">美味しいドリップコーヒーの淹れ方</a></li>
+      </ul></div>
+    </li>
+    <li id="programmingtab" class="changetopics active"><a>Programming</a>
+      <div class="bloglist shownlist"><ul>
+      <li><a href="transitionisnotappliedtodisplay.html">[css]display要素にtransitionが効かない...</a></li>
+      <li><a href="howtocreatesubmenu.html">[Javascript]サブメニューの作り方</a></li>
+      <li><a href="transparentproperty.html">[css]borderプロパティのみを透過させたい</a></li>
+      <li><a href="squreimg.html">[css]画像を正方形にして入れたい</a></li>
+      <li class="currentblog"><a>[css]正方形の要素を均等に並べたい</a></li>
+      </ul></div>
+    </li>
+    <li id="lifetab" class="changetopics"><a>Life</a>
+      <div class="bloglist"><ul>
+      <li><a href="">1</a></li>
+      </ul></div>
+    </li>
+    <li id="businesstab" class="changetopics"><a>Business</a>
+      <div class="bloglist"><ul>
+      <li><a href="../business/changingjobisnotabadthing.html">転職は悪いことじゃない</a></li>
+      </ul></div>
+    </li>
+  </ul>
+</div>
+<div class="blogcontent">
+<h1 class="blogtitle">[css]正方形の要素を均等に並べたい時</h1>
+<p>こんにちは、</p>
+<p> </p>
+<p>前回は画面サイズ(厳密には親要素のサイズ)に応じて</p>
+<p>大きさが変わる<strong>正方形</strong>の要素の作り方</p>
+<p>を紹介しました。</p>
+<p> </p>
+<p><iframe class="embed-card embed-blogcard" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;" title="&lt;css&gt;画像を正方形にして入れたい時 - shefuの備忘録" src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fshefuyuta.hatenablog.com%2Fentry%2F2021%2F06%2F28%2F191629" frameborder="0" scrolling="no"></iframe><cite class="hatena-citation"><a href="https://shefuyuta.hatenablog.com/entry/2021/06/28/191629">shefuyuta.hatenablog.com</a></cite></p>
+<p> </p>
+<p> </p>
+<p>そして今回はその要素たちを</p>
+<p>画面内に<strong>均等に並べてみよう</strong>という</p>
+<p>試みです。</p>
+<p> </p>
+<p>画面内に<strong>均等</strong>に並べると言えば、</p>
+<p>皆さんご存知<strong>Flex box</strong>ですね！</p>
+<p> </p>
+<p><strong>display:</strong> というプロパティがありますが、</p>
+<p>これらは元来、子要素を<strong>縦</strong>に並べるか<strong>横</strong>に並べるかくらいの</p>
+<p>違いしかありませんでした。</p>
+<p>(厳密にいうと違うんでしょうけどプロフェッショナルの方々怒らないでください笑)</p>
+<p> </p>
+<p>しかし、<strong>display: flex;</strong> という値を用いることで</p>
+<p>親要素に合わせて自動的に均等に並べることができるようになったのです！</p>
+<p> </p>
+<p>今回の<strong>目標物</strong>はざっくり以下の感じにします。</p>
+<p>もちろん皆さんが試されるときは若干の変更を加えれば臨機応変に変更できます。</p>
+<p> </p>
+<p><strong>[目標物]</strong></p>
+<p>-正方形を3x3でほぼ画面いっぱいに並べる。</p>
+<p>-2列目の正方形は画面の中央に位置する。</p>
+<p>-1行目の正方形を青、2行目を緑、3行目を黄色とする。</p>
+<p>-それぞれの正方形同士は少しだけ離れている。</p>
+<p>-それぞれの正方形にはThis is blue.のように色の説明がある。</p>
+<p>-色の説明はそれぞれの正方形の中心に位置する。</p>
+<p> </p>
+<p>実際に使ってみると<strong>こんな感じ</strong>になります↓↓↓</p>
+<p class="codepen" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-height="300" data-default-tab="html,result" data-slug-hash="ZEKEMOO" data-user="shefuyuta">Flex boxes<a href="https://codepen.io/shefuyuta/pen/ZEKEMOO"> </a> by shefuyuta (<a href="https://codepen.io/shefuyuta">@shefuyuta</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<p>
+<script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</p>
+<p> </p>
+<p>このように<strong>正方形</strong>が<strong>均等</strong>に<strong>画面中央</strong>に並んでくれます。</p>
+<p>目標物のイメージ通りになっていますでしょうか？</p>
+<p> </p>
+<p>さて、ここから詳しく解説していきます。</p>
+<p> </p>
+<p> </p>
+<p>まず、<strong>html</strong>で<strong>親要素</strong>を作ります。</p>
+<p>分かりやすいようにclass名は<strong>parent</strong>とします。</p>
+<p>この中に正方形にする要素が<strong>9つ</strong>欲しいので、</p>
+<p><strong>&lt;div&gt;</strong>を<strong>9つ</strong>作ります。</p>
+<p> </p>
+<p>そして行ごとに<strong>色を変える</strong>ので、</p>
+<p>最初の3つの<strong>class名</strong>を<strong>blue</strong>、次の3つを<strong>green</strong>、最後の3つを<strong>yellow</strong>とします。</p>
+<p>さらにそれぞれの&lt;div&gt;の中に<strong>&lt;a&gt;要素</strong>を追加し、それぞれ"<strong>This is [色].</strong>"とします。</p>
+<p> </p>
+<p><strong>html</strong>はこれで整いました。</p>
+<p>では<strong>css</strong>を見ていきましょう。</p>
+<p> </p>
+<p>まず、親要素である<strong>.parent</strong>は<strong>width: 100%;</strong>とします。</p>
+<p>それぞれの正方形の幅を%で指定する為、</p>
+<p>その親要素の<strong>width</strong>を<strong>必ず%で指定</strong>しないといけないのです。</p>
+<p> </p>
+<p>厳密にはその親というか元祖であるhtml要素も</p>
+<p><strong>width: 100%;</strong>と指定する必要があります。</p>
+<p>ちなみにhtml要素は基本的に100%を推奨しますが、.parent要素は必ずしも100%でなくても構いません。</p>
+<p>気になる人はどうなるか試してみると理解が深まります。</p>
+<p>私は初心者ながらこういう<strong>実験的なもの</strong>が好きなのでなぜそうしなければならないのか理解できないと気持ちが悪いのでつい試してしまいます。</p>
+<p>(良い事のようにも聞こえますが、細かいことをいちいち気にしているとそれだけ学習が<strong>遅くなります</strong>...。気を付けます...。)</p>
+<p> </p>
+<p>次に、子要素である<strong>正方形予備軍</strong>たちを均等に並べたいので、</p>
+<p>ここで<strong>display: flex;</strong>としましょう。</p>
+<p>※displayは子要素の並びを制御するものです。子要素に直接display: flex;と入れても効かないので気をつけましょう。</p>
+<p>さらに<strong>flex box</strong>の<strong>詳細</strong>を設定していきます。</p>
+<p><strong>flex-direction: row;</strong> (並べる向き: 横;)</p>
+<p><strong>flex-wrap: wrap;</strong> (端まで行ったときに折り返して2行目に行くか: 行く;) </p>
+<p>※ここまでデフォルト値なので実は入力不要です。</p>
+<p><strong>justify-content: center;</strong> (子要素をどのように並べるか(横軸): 中央揃え;)</p>
+<p><strong>align-items:  center;</strong> (子要素をどのように並べるか(縦軸): 中央揃え;)</p>
+<p> </p>
+<p>これで<strong>親要素</strong>は完了です。</p>
+<p>次に<strong>子要素</strong>(正方形予備軍)ですが、</p>
+<p>子要素の正方形予備軍たちは3つずつ<strong>class名</strong>が分かれています。</p>
+<p> </p>
+<p>ただ大きさなどについては<strong>全部一度に</strong>指定したいので、</p>
+<p><strong>.parent &gt; div</strong>(.parent要素の子要素であるdiv、孫要素以下は対象外)で指定していきます。</p>
+<p>今回の場合は<strong>.parent div</strong>(parent要素内のdiv全て)でも問題ないです。</p>
+<p> </p>
+<p>その前に前回お話した通り、</p>
+<p><strong>.parent &gt; div::before</strong>から設定します。</p>
+<p>.parent &gt; div::before {</p>
+<p> padding-top(またはbottom): 100%;</p>
+<p> content: "";</p>
+<p> display: block; </p>
+<p>}</p>
+<p>これでいいですね。</p>
+<p> </p>
+<p>では<strong>div要素自体</strong>をいじっていきましょう。</p>
+<p>一番大事なのはここの<strong>widthプロパティ</strong>ですね。</p>
+<p>このプロパティが<strong>何%か</strong>によって、1行あたりに何個の正方形が並ぶかが決まります。</p>
+<p>今回は1行あたり3つずつ並べたいので、widthの値は33.333333.....%以下にします。</p>
+<p>つまり、100%の中に3つ入るようにしたいのです。</p>
+<p>33.333....4%を以上になってしまうと3つ目が入らないので、</p>
+<p><strong>flex-wrap</strong>によって3つ目が2行目に追いやられてしまいます。</p>
+<p>反対に25%以下にしてしまうと4つ目が入ってしまうので気をつけましょう。</p>
+<p> </p>
+<p>今回は適当に<strong>30%</strong>としています。</p>
+<p>合計90%しかないじゃんと思うかもしれませんが、正方形同士の間にスペースが必要なので、スペースをどのくらい確保するのかも計算に入れなければいけません。</p>
+<p>今回は正方形の<strong>margin</strong>を全辺1%にしているので、1%×正方形3つ×2辺で6%になります。</p>
+<p>あれ？それでも合計96%では？と思ったあなた。その通りなんです。</p>
+<p> </p>
+<p>ただし、</p>
+<p>親要素に<strong>display: flex;</strong>、<strong>justify-content: center;</strong></p>
+<p>と指定しているので、</p>
+<p>残りの4%は両端に<strong>均等に割り振られます</strong>。</p>
+<p>align-itemsもcenterなので上下のスペースについても同じです。</p>
+<p> </p>
+<p>親要素に&lt;div&gt;をもう1個挟んでmargin: 2%;とし、</p>
+<p>子要素の正方形予備軍は<strong>::first</strong>とかを使ったりして細かーく設定しても同じ結果にできますが、</p>
+<p>同じ結果になるなら<strong>display: flex;</strong>で自動的にスペースを割り振った方が</p>
+<p>圧倒的に楽ですし、見やすいので後からの変更もしやすいです。<strong>圧倒的</strong>に。</p>
+<p> </p>
+<p> </p>
+<p>さて、<strong>flexbox</strong>の<strong>圧倒的便利さ</strong>を痛感しながら</p>
+<p>正方形を並べられたところで</p>
+<p>次に行きましょう。</p>
+<p> </p>
+<p>正方形内の<strong>This is[色]</strong>の文字を各正方形の真ん中に入れたいので、</p>
+<p>その親要素である正方形自体も<strong>display: flex;</strong>にする必要があります。</p>
+<p>これも<strong>.parent &gt; div内</strong>で大丈夫ですね！</p>
+<p> </p>
+<p>display: flex;</p>
+<p>flex-directionはデフォルト値でいいので省略</p>
+<p>justify-content: center;</p>
+<p>align-items: center;</p>
+<p> </p>
+<p>これでいいでしょう。</p>
+<p> </p>
+<p>次に正方形に色を付けていきます。</p>
+<p>色ごとにclass分けをしたので</p>
+<p>素直に各クラスの<strong>background-color</strong>を指定しましょう。</p>
+<p> </p>
+<p>次は各正方形の中の<strong>&lt;a&gt;要素</strong>について</p>
+<p>ケアしていきます。</p>
+<p> </p>
+<p>特に何もいらないですが、</p>
+<p>目立つように<strong>font-weight: bold;</strong>を入れてます。</p>
+<p> </p>
+<p>またfont-sizeについては</p>
+<p>正方形のように柔軟に変わってほしいので</p>
+<p><strong>5vh</strong>としています。</p>
+<p> </p>
+<p>ちなみに<strong>vh</strong>は<strong>viewport heightの</strong>略で画面の高さの5%となります。</p>
+<p> </p>
+<p>さて、ちょっと長くなりましたが</p>
+<p>分かりやすく説明できていたでしょうか。</p>
+<p> </p>
+<p>分かりにくかったり質問があったりしたら</p>
+<p>お気軽に、というか是非SNSからコメントください！</p>
+<p>お待ちしています。</p>
+<p> </p>
+<p>
+<script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</p>
+<!-- START MoshimoAffiliateEasyLink -->
+<p>
+<script type="text/javascript">// <![CDATA[
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20210203","msmaflink");
+msmaflink({"n":"ロジクール ワイヤレスマウス トラックボール 無線 M575S Bluetooth Unifying 5ボタン トラックボールマウス ワイヤレス マウス windows mac iPad 電池寿命最大24ケ月 M575 ブラック 国内正規品 1年間無償保証","b":"Logicool(ロジクール)","t":"910-005877","d":"https://m.media-amazon.com","c_p":"/images/I","p":["/31TYOVsxQTL._SL500_.jpg","/41cQmYNQ03L._SL500_.jpg","/41CYXNwFrBL._SL500_.jpg","/513aEl7UqxL._SL500_.jpg","/41vH6BC5HyL._SL500_.jpg","/41TIERQwrRL._SL500_.jpg","/41X8By-olXL._SL500_.jpg","/41cqXexnCgL._SL500_.jpg","/41Xk3angwNL._SL500_.jpg","/310CaQSNWNL._SL500_.jpg"],"u":{"u":"https://www.amazon.co.jp/dp/B08L4ZR79Q","t":"amazon","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"Amazonで見る","u_bc":"#f79256","u_url":"https://www.amazon.co.jp/dp/B08L4ZR79Q","a_id":2644022,"p_id":170,"pl_id":27060,"pc_id":185,"s_n":"amazon","u_so":1},{"id":2,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https://search.rakuten.co.jp/search/mall/%E3%83%AD%E3%82%B8%E3%82%AF%E3%83%BC%E3%83%AB%20%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E3%83%9E%E3%82%A6%E3%82%B9%20%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%AB%20%E7%84%A1%E7%B7%9A%20M575S%20Bluetooth%20Unifying%205%E3%83%9C%E3%82%BF%E3%83%B3%20%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%AB%E3%83%9E%E3%82%A6%E3%82%B9%20%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%20%E3%83%9E%E3%82%A6%E3%82%B9%20windows%20mac%20iPad%20%E9%9B%BB%E6%B1%A0%E5%AF%BF%E5%91%BD%E6%9C%80%E5%A4%A724%E3%82%B1%E6%9C%88%20M575%20%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%20%E5%9B%BD%E5%86%85%E6%AD%A3%E8%A6%8F%E5%93%81%201%E5%B9%B4%E9%96%93%E7%84%A1%E5%84%9F%E4%BF%9D%E8%A8%BC/","a_id":2644020,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":2}],"eid":"qxXd5","s":"xs"});
+// ]]></script>
+</p>
+<div id="msmaflink-qxXd5">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+
+<script data-ad-client="ca-pub-3400710427589065" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  </div>
+</div>
+
+  <footer class="indexfooter">
+    <div class="links">
+      <div class="iglink">
+        <a class="ig"  href="https://www.instagram.com/shefuyuta/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="twitterlink">
+        <a class="twitter" href="https://twitter.com/shefuyuta" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="tumblrlink">
+        <a class="tumblr" href="https://www.tumblr.com/blog/view/shefuyuta" target="_blank"><i class="fab fa-tumblr"></i></a>
+      </div>
+    </div>
+  </footer>
+<script src="../js/blog.js"></script>
+<script src="../js/jquery.js"></script>
+</body>
+</html>

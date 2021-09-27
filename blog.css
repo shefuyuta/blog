@@ -263,7 +263,7 @@ border-bottom-style: solid;
   transition: all 0.3s ease-out;
   padding-left: 3px;
 }
-.blogtopics a:hover .blogtopics{
+.blogtopics a:hover {
   border-left: 5px;
   border-left-color: white;
   border-left-style: solid;

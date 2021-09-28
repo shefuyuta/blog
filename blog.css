@@ -125,7 +125,7 @@ opacity: 0.3;
   color: white;
   font-family: Arial Black;
 }
-.menulist > li > a:hover li {
+.move > a:hover .move {
   border-bottom-color: white;
   border-bottom-style: solid;
   border-bottom-width: 2px;

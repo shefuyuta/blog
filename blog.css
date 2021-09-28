@@ -111,7 +111,7 @@ opacity: 0.3;
   letter-spacing: -0.025em;
   z-index: 3;
 }
-.menulist a:hover .menulist {
+.menu li a:hover .menu li {
   border-bottom-color: white;
   border-bottom-style: solid;
   border-bottom-width: 2px;

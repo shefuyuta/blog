@@ -111,12 +111,6 @@ opacity: 0.3;
   letter-spacing: -0.025em;
   z-index: 3;
 }
-.menulist > li > a:hover .menulist > li {
-  border-bottom-color: white;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  opacity: 1;
-}
 .menulist > li {
   height: 25px;
   position: relative;
@@ -131,7 +125,12 @@ opacity: 0.3;
   color: white;
   font-family: Arial Black;
 }
-
+.menulist > li > a:hover .menulist > li {
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  opacity: 1;
+}
 
 .currentpage {
 font-weight: 900;

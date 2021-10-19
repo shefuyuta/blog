@@ -58,3 +58,12 @@ function tabSwitch(){
   document.getElementsByClassName('bloglist')[index].classList.add('shownlist');
 };
 });
+
+
+const Line = require('./line');
+const myLine = new Line();
+
+// LINE Notify トークンセット
+myLine.setToken(process.env.QUdjDjU8mhPF5zX4fZD93lCSeXEigA8hKEWTaL0Fy8h);
+// LINE Notify 実行（「こんにちは！」とメッセージを送る）
+myLine.notify('こんにちは！');
